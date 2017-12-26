@@ -1,0 +1,2 @@
+webpackJsonp([72776394686286],{183:function(e,t,l){"use strict";function u(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var n=l(4),a=u(n),d=l(42),f=u(d),r=function(){return a.default.createElement("div",null,a.default.createElement("h1",null,"A4纸资讯"),a.default.createElement("p",null,"开发中..."),a.default.createElement(f.default,{to:"/"},"返回首页"))};t.default=r,e.exports=t.default}});
+//# sourceMappingURL=component---src-pages-news-js-de5bcd848ce71ae63459.js.map

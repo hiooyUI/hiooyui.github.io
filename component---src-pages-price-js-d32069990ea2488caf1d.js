@@ -1,0 +1,2 @@
+webpackJsonp([0x6deeed01cac7],{184:function(e,t,l){"use strict";function u(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var n=l(4),a=u(n),d=l(42),c=u(d),f=function(){return a.default.createElement("div",null,a.default.createElement("h1",null,"A4纸价格"),a.default.createElement("p",null,"开发中..."),a.default.createElement(c.default,{to:"/"},"返回首页"))};t.default=f,e.exports=t.default}});
+//# sourceMappingURL=component---src-pages-price-js-d32069990ea2488caf1d.js.map

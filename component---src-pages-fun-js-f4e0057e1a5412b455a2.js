@@ -1,0 +1,2 @@
+webpackJsonp([0xcaf9b732cb42],{181:function(e,t,l){"use strict";function u(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var n=l(4),a=u(n),f=l(42),c=u(f),d=function(){return a.default.createElement("div",null,a.default.createElement("h1",null,"A4纸知多少"),a.default.createElement("p",null,"开发中..."),a.default.createElement(c.default,{to:"/"},"返回首页"))};t.default=d,e.exports=t.default}});
+//# sourceMappingURL=component---src-pages-fun-js-f4e0057e1a5412b455a2.js.map
