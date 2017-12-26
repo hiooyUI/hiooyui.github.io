@@ -40,6 +40,7 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  text-decoration: none;
 }
 a:active,
 a:hover {
@@ -216,7 +217,7 @@ img {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 0;
 }
 h1 {
   margin-left: 0;
@@ -338,9 +339,11 @@ ul {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
   list-style-position: outside;
   list-style-image: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 ol {
   margin-left: 1.45rem;
@@ -382,7 +385,7 @@ p {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 0;
 }
 figure {
   margin-left: 0;
@@ -511,7 +514,9 @@ th {
   font-weight: bold;
 }
 li {
-  margin-bottom: calc(1.45rem / 2);
+  list-style: none;
+  padding:0;
+  margin: 0;
 }
 ol li {
   padding-left: 0;
@@ -621,4 +626,63 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+html {
+  height: 100%;
+  overflow: auto;
+}
+html, body , body > div {
+  min-height: 100%;
+}
+
+/*others*/
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.nav-list li {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+.nav-list li.active{
+    color: #ff9c00;
+    border-bottom: 2px solid #ff9c00;
+}
+
+.nav-list>li a {
+    display: block;
+    padding: 0 25px;
+    font-size: 16px;
+    position: relative;
+    color: #222324;
+}
+
+.nav-list>li:hover a, .nav-list>li:hover, .nav-list>.active a {
+    color: #ff9c00;
+    font-weight: 700;
+}
+
+.index-nav-list li{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+
+.index-nav-list li a{
+    padding: 0 25px;
+    color: #333;
 }
