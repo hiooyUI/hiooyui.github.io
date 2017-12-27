@@ -121,6 +121,7 @@ const Footer = () => (
         textAlign: 'center'
       }}
     >
+      <a href="mailto:kbl_1794@qq.com">联系我们</a> | <a href="mailto:kbl_1794@qq.com">商务合作</a><br />
       A4纸网 - 专注于A4纸  保留所有权 © 2017~2018 a4z.cn
     </div>
   </div>
