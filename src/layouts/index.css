@@ -686,3 +686,17 @@ html, body , body > div {
     padding: 0 25px;
     color: #333;
 }
+
+.news-list{
+  padding-left: 30px;
+}
+
+.news-list li {
+  list-style: decimal;
+  margin-bottom: 15px;
+}
+
+.cms-post p {
+  text-indent: 2em;
+  margin-bottom: 15px;
+}

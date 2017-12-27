@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
 const SecondPage = () => (
-  <div>
+  <div style={{paddingBottom: 50}}>
     <Helmet
       title="A4纸价格 - A4纸网"
       meta={[
@@ -12,7 +12,8 @@ const SecondPage = () => (
       ]}
     />
     <h1>A4纸价格</h1>
-    <p>开发中...</p>
+    <p>开发中...<br /><br /></p>
+    <a href="mailto:kbl_1794@qq.com" rel="nofollow">商务合作</a><br /><br />
     <Link to="/">返回首页</Link>
   </div>
 )
