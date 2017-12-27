@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import {goTop} from '../util/tool'
+import Helmet from 'react-helmet'
 
 import './index.css'
 
@@ -158,6 +159,9 @@ class TemplateWrapper extends Component {
     const { children, location } = this.props;
     return (
       <div style={{minHeight:'100%',position:'relative'}}>
+        <Helmet
+          link={[{type:'favicon',rel:'shortcut icon',href:'favicon.ico'}]}
+        />
         <Header location={location}/>
         <div
           style={{
