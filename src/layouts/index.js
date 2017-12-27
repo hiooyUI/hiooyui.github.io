@@ -1,59 +1,61 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
-import Helmet from 'react-helmet'
 import {goTop} from '../util/tool'
 
 import './index.css'
 
-const HeaderNav = () => (
-  <div
-    className="header-nav"
-    style={{
-      borderBottom: '2px solid #343434',
-      height: 40,
-      lineHeight: 40,
-    }}
-  >
-    <ul className="nav-list clearfix"
+const HeaderNav = ({location}) => {
+  const {pathname} = location;
+  return (
+    <div
+      className="header-nav"
       style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        display: 'block',
-        padding: '0 40px'
+        borderBottom: '2px solid #343434',
+        height: 40,
+        lineHeight: 40,
       }}
     >
-      <li className="active">
-        <Link
-          to="/"
-        >
-          首页
-        </Link>
-      </li>
-      <li>
-        <Link
-          to="/fun"
-        >
-          A4纸知多少
-        </Link>
-      </li>
-      <li>
-        <Link
-          to="/news"
-        >
-          A4纸资讯
-        </Link>
-      </li>
-      <li>
-        <Link
-          to="/price"
-        >
-          A4纸价格
-        </Link>
-      </li>
-    </ul>
-  </div>
-)
+      <ul className="nav-list clearfix"
+        style={{
+          margin: '0 auto',
+          maxWidth: 960,
+          display: 'block',
+          padding: '0 40px'
+        }}
+      >
+        <li className={pathname === '/' ? 'active' : null}>
+          <Link
+            to="/"
+          >
+            首页
+          </Link>
+        </li>
+        <li className={pathname.match(/\/fun/i) ? 'active' : null}>
+          <Link
+            to="/fun"
+          >
+            A4纸知多少
+          </Link>
+        </li>
+        <li className={pathname.match(/\/news/i) ? 'active' : null}>
+          <Link
+            to="/news"
+          >
+            A4纸资讯
+          </Link>
+        </li>
+        <li className={pathname.match(/\/price/i) ? 'active' : null}>
+          <Link
+            to="/price"
+          >
+            A4纸价格
+          </Link>
+        </li>
+      </ul>
+    </div>
+  )
+}
 
 const HeaderTop = () => (
   <div
@@ -88,14 +90,14 @@ const HeaderBanner = () => (
     </div>
 )
 
-const Header = () => (
+const Header = ({location}) => (
   <div
     style={{
       marginBottom: '1rem',
     }}
   >
     <HeaderTop />
-    <HeaderNav />
+    <HeaderNav location={location} />
     <HeaderBanner />
   </div>
 )
@@ -124,19 +126,38 @@ const Footer = () => (
   </div>
 )
 
+const ReturnTop = () => (
+  <div
+    className="return-top" 
+    style={{
+      width:50,
+      height:50,
+      lineHeight:'50px',
+      textAlign:'center',
+      position:'fixed',
+      right:20,
+      bottom:50,
+      color:'#ddd',
+      border:'1px solid #ddd',
+      fontSize:16,
+      fontWeight:700,
+      cursor:'pointer',
+      backgroundColor:'#fff',
+    }}
+    onClick={
+      () => {
+        goTop();
+      }
+    }
+  >个</div>
+)
+
 class TemplateWrapper extends Component {
   render() {
-    const { children } = this.props;
+    const { children, location } = this.props;
     return (
       <div style={{minHeight:'100%',position:'relative'}}>
-        <Helmet
-          title="A4纸尺寸大小是多少？什么是A4纸？标准A4纸像素分辨率换算 - A4纸网"
-          meta={[
-            { name: 'description', content: 'A4纸网' },
-            { name: 'keywords', content: 'A4纸尺寸,A4纸, A4纸网' },
-          ]}
-        />
-        <Header />
+        <Header location={location}/>
         <div
           style={{
             margin: '0 auto',
@@ -147,29 +168,7 @@ class TemplateWrapper extends Component {
           {children()}
         </div>
         <Footer />
-        <div
-          className="return-top" 
-          style={{
-            width:50,
-            height:50,
-            lineHeight:'50px',
-            textAlign:'center',
-            position:'fixed',
-            right:20,
-            bottom:50,
-            color:'#ddd',
-            border:'1px solid #ddd',
-            fontSize:16,
-            fontWeight:700,
-            cursor:'pointer',
-            backgroundColor:'#fff',
-          }}
-          onClick={
-            () => {
-              goTop();
-            }
-          }
-        >个</div>
+        <ReturnTop />
       </div>
     )
   }

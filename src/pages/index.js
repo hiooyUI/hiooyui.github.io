@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Helmet from 'react-helmet'
 
 const InGeneral = () => (
     <div
@@ -34,13 +35,22 @@ const Paragraphs = () => (
 		<dl className="clearfix">
 			<dt id="a4z-size">① A4纸大小(单位：毫米)</dt>
 			<dd>
-			    <p style={{ marginTop: 15, paddingLeft: 20}}>
-			    	<strong>A4纸大小：210 × 297；</strong><br />
-					A3纸大小：297 × 420；<br />
-					A2纸大小：420 × 594；<br />
-					A1纸大小：594 × 841；<br />
-					A0纸大小：841 × 1189；
-			    </p>
+			    <table style={{ marginTop: 15, paddingLeft: 20}}>
+				    <tbody>
+					    <tr><td colSpan={2}>A纸</td><td colSpan={2}>B纸</td><td colSpan={2}>C纸</td></tr>
+					    <tr><td>A0</td><td>841 x 1189</td><td>B0</td><td>1000 x 1414</td><td>C0</td><td>917 x 1297</td></tr>
+					    <tr><td>A1</td><td>594 x 841</td><td>B1</td><td>707 x 1000</td><td>C1</td><td>648 x 917</td></tr>
+					    <tr><td>A2</td><td>420 x 594</td><td>B2</td><td>500 x 707</td><td>C2</td><td>458 x 648</td></tr>
+					    <tr><td>A3</td><td>297 x 420</td><td>B3</td><td>353 x 500</td><td>C3</td><td>324 x 458</td></tr>
+					    <tr><td style={{borderBottom:'2px solid #000'}}><strong>A4</strong></td><td style={{borderBottom:'2px solid #000'}}><strong>210 x 297</strong></td><td>B4</td><td>250 x 353</td><td>C4</td><td>229 x 324</td></tr>
+					    <tr><td>A5</td><td>148 x 210</td><td>B5</td><td>176 x 250</td><td>C5</td><td>162 x 229</td></tr>
+					    <tr><td>A6</td><td>105 x 148</td><td>B6</td><td>125 x 176</td><td>C6</td><td>114 x 162</td></tr>
+					    <tr><td>A7</td><td>74 x 105</td><td>B7</td><td>88 x 125</td><td>C7</td><td>81 x 114</td></tr>
+					    <tr><td>A8</td><td>52 x 74</td><td>B8</td><td>62 x 88</td><td>C8</td><td>57 x 81</td></tr>
+					    <tr><td>A9</td><td>37 x 52</td><td>B9</td><td>44 x 62</td><td>C9</td><td>110 x 220</td></tr>
+					    <tr><td>A10</td><td>26 x 37</td><td>B10</td><td>31 x 44</td><td>C10</td><td>81 x 162</td></tr>
+			    	</tbody>
+			    </table>
 			</dd>
 			<dt id="a4z-origin">② A4纸形成的基础</dt>
 			<dd>
@@ -71,6 +81,13 @@ const Paragraphs = () => (
 )
 const IndexPage = () => (
   <div>
+    <Helmet
+      title="A4纸尺寸大小是多少？什么是A4纸？标准A4纸像素分辨率换算 - A4纸网"
+      meta={[
+        { name: 'description', content: 'A4纸网' },
+        { name: 'keywords', content: 'A4纸尺寸,A4纸, A4纸网' },
+      ]}
+    />
   	<InGeneral />
   	<IndexNav />
   	<Paragraphs />
