@@ -160,7 +160,7 @@ class TemplateWrapper extends Component {
     return (
       <div style={{minHeight:'100%',position:'relative'}}>
         <Helmet
-          link={[{type:'favicon',rel:'icon',href:'/favicon.ico'}]}
+          link={[{type:'image/x-icon',rel:'shortcut icon',href:'/favicon.ico'}]}
         />
         <Header location={location}/>
         <div
