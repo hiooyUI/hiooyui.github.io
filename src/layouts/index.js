@@ -83,7 +83,6 @@ const HeaderBanner = () => (
     <div
       style={{
         background: '#b1dff0 url(/img/banner-2017.jpg) no-repeat center center',
-        minWidth: 960,
         height: 94,
       }}
     >
