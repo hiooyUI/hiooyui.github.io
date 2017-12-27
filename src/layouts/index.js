@@ -13,7 +13,6 @@ const HeaderNav = () => (
       borderBottom: '2px solid #343434',
       height: 40,
       lineHeight: 40,
-      overflow:'hidden'
     }}
   >
     <ul className="nav-list clearfix"
