@@ -9,8 +9,8 @@
       "path---price-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-0d056a78f5f1a37c9ea6.js",
-      "component---src-pages-index-js-0d056a78f5f1a37c9ea6.js.map"
+      "component---src-pages-index-js-a4c88b410ae8628e9925.js",
+      "component---src-pages-index-js-a4c88b410ae8628e9925.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -21,12 +21,16 @@
       "component---src-pages-news-js-de5bcd848ce71ae63459.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-1438ee3f0bcfc3ce7c0b.js",
-      "component---src-layouts-index-js-1438ee3f0bcfc3ce7c0b.js.map"
+      "component---src-layouts-index-js-d83e283ab56ed62de3e9.js",
+      "component---src-layouts-index-js-d83e283ab56ed62de3e9.js.map"
     ],
     "component---src-pages-price-js": [
       "component---src-pages-price-js-d32069990ea2488caf1d.js",
       "component---src-pages-price-js-d32069990ea2488caf1d.js.map"
+    ],
+    "path---page-2": [
+      "path---page-2-a0e39f21c11f6a62c5ab.js",
+      "path---page-2-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -52,14 +56,18 @@
       "path---news-a0e39f21c11f6a62c5ab.js",
       "path---news-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "component---src-pages-page-2-js": [
+      "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js",
+      "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js.map"
+    ],
     "component---src-pages-fun-js": [
       "component---src-pages-fun-js-f4e0057e1a5412b455a2.js",
       "component---src-pages-fun-js-f4e0057e1a5412b455a2.js.map"
     ],
     "app": [
-      "app-681ab357778fe1bed7c9.js",
+      "app-4f2d0a64a64ae613ef42.js",
       "build-js-styles.css",
-      "app-681ab357778fe1bed7c9.js.map",
+      "app-4f2d0a64a64ae613ef42.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
