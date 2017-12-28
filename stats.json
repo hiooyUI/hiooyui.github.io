@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "component---src-templates-cms-template-js": [
-      "component---src-templates-cms-template-js-25b5bf6061ba9da61d5a.js",
-      "component---src-templates-cms-template-js-25b5bf6061ba9da61d5a.js.map"
+      "component---src-templates-cms-template-js-72ba95a56f46e626a76d.js",
+      "component---src-templates-cms-template-js-72ba95a56f46e626a76d.js.map"
     ],
     "path---news-a-4-z-zhang-jia-2017-09-25": [
       "path---news-a-4-z-zhang-jia-2017-09-25-d03a7eaf2bcbdcfcebc5.js",
@@ -21,20 +21,20 @@
       "path----557518bd178906f8d58a.js.map"
     ],
     "component---src-pages-news-js": [
-      "component---src-pages-news-js-b5fc3111a64597037b49.js",
-      "component---src-pages-news-js-b5fc3111a64597037b49.js.map"
+      "component---src-pages-news-js-aeaf7b0d2bb5f5205af1.js",
+      "component---src-pages-news-js-aeaf7b0d2bb5f5205af1.js.map"
     ],
     "path---news-a-4-z-zhang-jia-2017-12-22-a": [
       "path---news-a-4-z-zhang-jia-2017-12-22-a-861c6c83362a8ee2eabf.js",
       "path---news-a-4-z-zhang-jia-2017-12-22-a-861c6c83362a8ee2eabf.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-8f6058905fb1b6116efa.js",
-      "component---src-layouts-index-js-8f6058905fb1b6116efa.js.map"
+      "component---src-layouts-index-js-3deff3c9ec31023ceda2.js",
+      "component---src-layouts-index-js-3deff3c9ec31023ceda2.js.map"
     ],
     "component---src-pages-price-js": [
-      "component---src-pages-price-js-5aabbf175e426ce30d3a.js",
-      "component---src-pages-price-js-5aabbf175e426ce30d3a.js.map"
+      "component---src-pages-price-js-7c266794d674aa4ae4d7.js",
+      "component---src-pages-price-js-7c266794d674aa4ae4d7.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -65,13 +65,13 @@
       "path---news-a-4-z-zhang-jia-2017-12-21-a25e5d3ce38a75a6bebe.js.map"
     ],
     "component---src-pages-fun-js": [
-      "component---src-pages-fun-js-686f88f6f12cf7eddbee.js",
-      "component---src-pages-fun-js-686f88f6f12cf7eddbee.js.map"
+      "component---src-pages-fun-js-1ca892a71660bafd8bf4.js",
+      "component---src-pages-fun-js-1ca892a71660bafd8bf4.js.map"
     ],
     "app": [
-      "app-ff248a5fecc2b9e20587.js",
+      "app-776624c56f1bb9e84511.js",
       "build-js-styles.css",
-      "app-ff248a5fecc2b9e20587.js.map",
+      "app-776624c56f1bb9e84511.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
