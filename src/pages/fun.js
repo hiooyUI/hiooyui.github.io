@@ -7,7 +7,7 @@ const SecondPage = () => (
     <Helmet
       title="A4纸知多少 - A4纸网"
       meta={[
-        { name: 'description', content: 'A4纸网' },
+        { name: 'description', content: 'A4纸纸张大小,A4纸历史,A4纸容差' },
         { name: 'keywords', content: 'A4纸尺寸,A4纸, A4纸网' },
       ]}
     />
@@ -22,7 +22,7 @@ const SecondPage = () => (
     <p style={{ marginTop: 15}}>
 	    <strong>ISO 216</strong><br />   
 
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ISO 216规定了当今世界大多数国家使用的国际标准（ISO）纸张尺寸，尽管不在加拿大，美国，墨西哥或多米尼加共和国。 该标准定义了“A”和“B”系列纸张尺寸，其中A4是最常用的尺寸。 两个补充标准ISO 217和ISO 269定义了相关的纸张尺寸; ISO 269“C”系列通常与A和B尺寸一起列出。
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ISO 216规定了当今世界大多数国家使用的国际标准（ISO）纸张尺寸，尽管不在加拿大，美国，墨西哥或多米尼加共和国。 该标准定义了“A”和“B”系列纸张尺寸，其中<strong>A4是最常用的尺寸（210毫米 × 297毫米）</strong>。 两个补充标准ISO 217和ISO 269定义了相关的纸张尺寸; ISO 269“C”系列通常与A和B尺寸一起列出。
 		<br /><br />  
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 所有ISO 216，ISO 217和ISO 269纸张尺寸（除了某些信封外）在四舍五入至毫米的范围内具有相同的纵横比为2的平方根。 这个比例具有独特的性质，当以半宽方式切割或折叠时，半部分也具有相同的纵横比。 每个ISO纸张尺寸是同一系列中下一个较大尺寸面积的一半。
     </p>

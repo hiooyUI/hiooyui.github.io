@@ -82,10 +82,10 @@ const Paragraphs = () => (
 const IndexPage = () => (
   <div>
     <Helmet
-      title="A4纸尺寸大小是多少？什么是A4纸？标准A4纸像素分辨率换算 - A4纸网"
+      title="A4纸尺寸大小是多少？什么是A4纸？标准A4纸像素分辨率如何换算？ - A4纸网"
       meta={[
         { name: 'description', content: 'A4纸网' },
-        { name: 'keywords', content: 'A4纸尺寸,A4纸, A4纸网' },
+        { name: 'keywords', content: 'A4纸尺寸,A4纸大小,A4纸, A4纸网' },
       ]}
     />
   	<InGeneral />

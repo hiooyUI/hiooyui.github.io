@@ -695,7 +695,9 @@ html, body , body > div {
   list-style: decimal;
   margin-bottom: 15px;
 }
-
+.cms-post {
+  padding-bottom: 50px;
+}
 .cms-post p {
   text-indent: 2em;
   margin-bottom: 15px;
