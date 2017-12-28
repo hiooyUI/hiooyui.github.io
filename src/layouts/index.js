@@ -22,7 +22,9 @@ const HeaderNav = ({location}) => {
           margin: '0 auto',
           maxWidth: 960,
           display: 'block',
-          padding: '0 40px'
+          padding: '0 40px',
+          height: 40,
+          overflow: 'hidden'
         }}
       >
         <li className={pathname === '/' ? 'active' : null}>
