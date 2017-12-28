@@ -11,7 +11,14 @@ const SecondPage = () => (
         { name: 'keywords', content: 'A4纸尺寸,A4纸, A4纸网' },
       ]}
     />
-    <h1>A4纸行业资讯</h1>
+    <div className="breadcrumb">
+	    <span className="breadcrumb-link"><Link to="/">首页</Link></span>
+	    <span className="breadcrumb-separator">/</span>
+	    <span className="breadcrumb-link">A4纸趣闻
+</span>
+    </div>
+    <h1>A4纸趣闻
+</h1>
 	<ul className="news-list">
 	    <li><Link to="/news/a4z-zhang-jia-2017-12-22-a">【深度】废纸打包厂一天亏百万 纸价“过山车”上的众生相</Link> [华龙网] [2017年12月22日]</li>
 	    <li><Link to="/news/a4z-zhang-jia-2017-12-22">全国废纸涨价潮来袭 全国51家纸企应声最高再涨200元/吨！</Link> [废品之家] [2017年12月20日-21日]</li>

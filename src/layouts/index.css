@@ -653,6 +653,24 @@ html, body , body > div {
     clear: both;
 }
 
+.breadcrumb {
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f3f8ff;
+}
+
+.breadcrumb-link {
+   color: #999;
+}
+
+.breadcrumb-link a {
+   color: #666;
+}
+
+.breadcrumb-separator {
+    margin: 0 10px;
+}
+
 .nav-list li {
     float: left;
     height: 40px;

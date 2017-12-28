@@ -11,6 +11,11 @@ const SecondPage = () => (
         { name: 'keywords', content: 'A4纸尺寸,A4纸, A4纸网' },
       ]}
     />
+    <div className="breadcrumb">
+	    <span className="breadcrumb-link"><Link to="/">首页</Link></span>
+	    <span className="breadcrumb-separator">/</span>
+	    <span className="breadcrumb-link">A4纸知多少</span>
+    </div>
     <h1>A4纸知多少</h1>
     <p style={{ marginTop: 15}}>
 	    <strong>纸张大小</strong><br />   

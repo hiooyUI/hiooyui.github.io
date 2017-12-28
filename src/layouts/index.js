@@ -43,7 +43,7 @@ const HeaderNav = ({location}) => {
           <Link
             to="/news"
           >
-            A4纸资讯
+            A4纸趣闻
           </Link>
         </li>
         <li className={pathname.match(/\/price/i) ? 'active' : null}>
@@ -66,7 +66,7 @@ const HeaderTop = () => (
       padding: '1rem 1.0875rem',
     }}
   >
-    <h1 style={{ margin: 0 }}>
+    <div style={{ margin: 0 }} className="logo">
       <Link
         to="/"
         style={{
@@ -76,7 +76,7 @@ const HeaderTop = () => (
       >
         <img src={'/img/logo.png'} alt="A4纸网" />
       </Link>
-    </h1>
+    </div>
   </div>
 )
 
