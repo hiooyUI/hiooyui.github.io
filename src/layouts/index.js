@@ -162,6 +162,9 @@ class TemplateWrapper extends Component {
         <Helmet
           link={[{type:'image/x-icon',rel:'shortcut icon',href:'/favicon.ico'}]}
           script={[{src:'https://hm.baidu.com/hm.js?96d9604e16c1245896d37f6e50c29669'}]}
+          meta={[
+            { name: 'baidu-site-verification', content: 'lKNsTG5Yhn' },
+          ]}
         />
         <Header location={location}/>
         <div
