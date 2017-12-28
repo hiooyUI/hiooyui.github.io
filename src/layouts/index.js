@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import {goTop} from '../util/tool'
@@ -161,6 +161,7 @@ class TemplateWrapper extends Component {
       <div style={{minHeight:'100%',position:'relative'}}>
         <Helmet
           link={[{type:'image/x-icon',rel:'shortcut icon',href:'/favicon.ico'}]}
+          script={[{src:'https://hm.baidu.com/hm.js?96d9604e16c1245896d37f6e50c29669'}]}
         />
         <Header location={location}/>
         <div
