@@ -110,9 +110,6 @@ const Footer = () => (
       width:'100%',
       background: '#efefef',
       borderTop: '1px solid #eee',
-      position:'absolute',
-      left:0,
-      bottom:0
     }}
   >
     <div
@@ -125,6 +122,7 @@ const Footer = () => (
     >
       注：本站内容全部原创或者来源于网络，如遇引用版权问题，欢迎与本站站长联系！<br /><br />
       <a href="mailto:kbl_1794@qq.com" rel="nofollow">联系站长</a> | <a href="mailto:kbl_1794@qq.com" rel="nofollow">商务合作</a><br />
+      友情链接：<a href="http://www.iampua.com/" rel="nofollow" target="_blank">泡学达人</a> | <a href="mailto:kbl_1794@qq.com" rel="nofollow">申请友情链接</a><br />
       A4纸网 - 专注于A4纸  保留所有权 © 2017~2018 a4z.cn
     </div>
   </div>
@@ -170,7 +168,7 @@ class TemplateWrapper extends Component {
           style={{
             margin: '0 auto',
             maxWidth: 960,
-            padding: '0px 1.0875rem 150px',
+            padding: '0px 1.0875rem 20px',
           }}
         >
           {children()}

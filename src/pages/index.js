@@ -80,7 +80,7 @@ const Paragraphs = () => (
 	</div>
 )
 const IndexPage = () => (
-  <div>
+  <div style={{paddingBottom: 50}}>
     <Helmet
       title="A4纸尺寸大小是多少？什么是A4纸？标准A4纸像素分辨率如何换算？ - A4纸网"
       meta={[
