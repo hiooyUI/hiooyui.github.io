@@ -67,8 +67,9 @@ const HeaderTop = () => (
       maxWidth: 960,
       padding: '1rem 1.0875rem',
     }}
+    className="clearfix"
   >
-    <div style={{ margin: 0 }} className="logo">
+    <div style={{ margin: 0 , maxWidth: '50%'}} className="logo fl">
       <Link
         to="/"
         style={{
@@ -78,6 +79,9 @@ const HeaderTop = () => (
       >
         <img src={'/img/logo.png'} alt="A4纸网" />
       </Link>
+    </div>
+    <div style={{ margin: 0 , maxWidth: '50%'}} className="friends-link fr">
+      <a href="http://www.iampua.com/" target="_blank" style={{ fontSize: 16 , color: '#333'}}>泡学达人</a> | <a href="https://github.com/hiooyUI/hiooyui.github.io" rel="nofollow" target="_blank" style={{ fontSize: 16 , color: '#333'}}>Github</a>
     </div>
   </div>
 )
@@ -110,6 +114,7 @@ const Footer = () => (
       width:'100%',
       background: '#efefef',
       borderTop: '1px solid #eee',
+      fontSize: 14,
     }}
   >
     <div
@@ -122,7 +127,7 @@ const Footer = () => (
     >
       注：本站内容全部原创或者来源于网络，如遇引用版权问题，欢迎与本站站长联系！<br /><br />
       <a href="mailto:kbl_1794@qq.com" rel="nofollow">联系站长</a> | <a href="mailto:kbl_1794@qq.com" rel="nofollow">商务合作</a><br />
-      友情链接：<a href="http://www.iampua.com/" target="_blank">泡学达人</a> | <a href="mailto:kbl_1794@qq.com" rel="nofollow">申请友情链接</a><br />
+      友情链接：<a href="http://www.iampua.com/" target="_blank">泡学达人 - 追女孩子的方法、泡妞秘籍、泡妞技巧、如何泡妞、怎么泡妞、泡妞教程、泡妞攻略</a> | <a href="mailto:kbl_1794@qq.com" rel="nofollow">申请友情链接</a><br />
       A4纸网 - 专注于A4纸  保留所有权 © 2017~2018 a4z.cn
     </div>
   </div>

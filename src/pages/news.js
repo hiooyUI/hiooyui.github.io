@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
 const SecondPage = () => (
-  <div style={{paddingBottom: 50}}>
+  <div style={{paddingBottom: 50,minHeight: '55vh',}}>
     <Helmet
       title="A4纸资讯 - A4纸网"
       meta={[
