@@ -127,8 +127,8 @@ const Footer = () => (
     >
       注：本站内容全部原创或者来源于网络，如遇引用版权问题，欢迎与本站站长联系！<br /><br />
       <a href="mailto:kbl_1794@qq.com" rel="nofollow">联系站长</a> | <a href="mailto:kbl_1794@qq.com" rel="nofollow">商务合作</a><br />
-      友情链接：<a href="http://www.iampua.com/" target="_blank">泡学达人 - 追女孩子的方法、泡妞秘籍、泡妞技巧、如何泡妞、怎么泡妞、泡妞教程、泡妞攻略</a> | <a href="mailto:kbl_1794@qq.com" rel="nofollow">申请友情链接</a><br />
-      A4纸网 - 专注于A4纸  保留所有权 © 2017~2018 a4z.cn
+      友情链接：<a href="http://www.iampua.com/" target="_blank">泡妞秘籍</a> | <a href="mailto:kbl_1794@qq.com" rel="nofollow">申请友情链接</a><br />
+      A4纸网 - 专注于A4纸  保留所有权 © 2017~2018 a4z.cn <img src="/img/beiantu.png" style={{verticalAlign: 'middle'}} alt="A4纸网备案图标" /> 粤ICP备18002963号
     </div>
   </div>
 )
