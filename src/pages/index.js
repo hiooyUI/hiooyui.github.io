@@ -27,8 +27,8 @@ const IndexNav = ({fixed}) => (
 		<li><a rel="nofollow" href="#a4z-size">A4纸尺寸大小</a></li>
 		<li><a rel="nofollow" href="#a4z-origin">A4纸形成的基础</a></li>
 		<li><a rel="nofollow" href="#a4z-weight">A4纸张重量</a></li>
-		<li><a rel="nofollow" href="#a4z-brand">A4纸哪个品牌好</a></li>
 		<li><a rel="nofollow" href="#a4z-pixel">A4纸像素分辨率换算</a></li>
+		<li><a rel="nofollow" href="#a4z-brand">A4纸哪个品牌好</a></li>
 	</ul>
 )
 
@@ -127,7 +127,7 @@ class IndexPage extends Component {
 		      title="A4纸尺寸大小是多少？A4纸品牌有哪些？A4纸价格多少？ - A4纸网"
 		      meta={[
 		        { name: 'description', content: 'A4纸网' },
-		        { name: 'keywords', content: 'A4纸尺寸,A4纸大小,A4纸, A4纸网' },
+		        { name: 'keywords', content: 'A4纸尺寸,A4纸大小,A4纸, A4纸网, A4纸品牌, A4纸价格, A4纸厂家, A4纸供应商' },
 		      ]}
 		    />
 		  	<InGeneral />

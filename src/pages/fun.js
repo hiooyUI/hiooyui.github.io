@@ -17,21 +17,142 @@ const SecondPage = () => (
 	    <span className="breadcrumb-link">A4纸知多少</span>
     </div>
     <h1>A4纸知多少</h1>
-    <p style={{ marginTop: 15}}>
-	    <strong>纸张大小</strong><br />   
 
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;许多纸张尺寸标准的惯例已经存在于不同的时间和不同的国家。 今天，包括常用的A4尺寸的ISO216的A和B系列是几乎所有国家都使用的国际标准。 然而，在美洲和菲律宾的许多国家，“信封”等北美系列纸张尺寸更为普遍。
+		<table style={{ marginTop: 15, marginBottom: 30, fontSize: 15}}>
+		<caption>ISO纸张尺寸（毫米与英寸两种单位）</caption>
+		<tbody><tr>
+		<th>纸张类型</th>
+		<th colSpan={2} style={{textAlign:'center', borderBottom: '2px solid orange'}}>A 系列</th>
+		<th colSpan={2} style={{textAlign:'center', borderBottom: '2px solid green'}}>B 系列</th>
+		<th colSpan={2} style={{textAlign:'center', borderBottom: '2px solid purple'}}>C 系列</th>
+		</tr>
+		<tr>
+		<th>尺寸大小</th>
+		<th>毫米 × 毫米</th>
+		<th>寸 × 寸</th>
+		<th>毫米 × 毫米</th>
+		<th>寸 × 寸</th>
+		<th>毫米 × 毫米</th>
+		<th>寸 × 寸</th>
+		</tr>
+		<tr>
+		<th>0</th>
+		<td>841 × 1189</td>
+		<td>33.1 × 46.8</td>
+		<td>1000 × 1414</td>
+		<td>39.4 × 55.7</td>
+		<td>917 × 1297</td>
+		<td>36.1 × 51.1</td>
+		</tr>
+		<tr>
+		<th>1</th>
+		<td>594 × 841</td>
+		<td>23.4 × 33.1</td>
+		<td>707 × 1000</td>
+		<td>27.8 × 39.4</td>
+		<td>648 × 917</td>
+		<td>25.5 × 36.1</td>
+		</tr>
+		<tr>
+		<th>2</th>
+		<td>420 × 594</td>
+		<td>16.5 × 23.4</td>
+		<td>500 × 707</td>
+		<td>19.7 × 27.8</td>
+		<td>458 × 648</td>
+		<td>18.0 × 25.5</td>
+		</tr>
+		<tr>
+		<th>3</th>
+		<td>297 × 420</td>
+		<td>11.7 × 16.5</td>
+		<td>353 × 500</td>
+		<td>13.9 × 19.7</td>
+		<td>324 × 458</td>
+		<td>12.8 × 18.0</td>
+		</tr>
+		<tr>
+		<th style={{borderBottom: '1px solid #000', fontWeight: 700, color:'#000'}}>4</th>
+		<td style={{borderBottom: '1px solid #000', fontWeight: 700, color:'#000'}}>210 × 297</td>
+		<td style={{borderBottom: '1px solid #000', fontWeight: 700, color:'#000'}}>8.27 × 11.7</td>
+		<td>250 × 353</td>
+		<td>9.84 × 13.9</td>
+		<td>229 × 324</td>
+		<td>9.02 × 12.8</td>
+		</tr>
+		<tr>
+		<th>5</th>
+		<td>148 × 210</td>
+		<td>5.83 × 8.27</td>
+		<td>176 × 250</td>
+		<td>6.93 × 9.84</td>
+		<td>162 × 229</td>
+		<td>6.38 × 9.02</td>
+		</tr>
+		<tr>
+		<th>6</th>
+		<td>105 × 148</td>
+		<td>4.13 × 5.83</td>
+		<td>125 × 176</td>
+		<td>4.92 × 6.93</td>
+		<td>114 × 162</td>
+		<td>4.49 × 6.38</td>
+		</tr>
+		<tr>
+		<th>7</th>
+		<td>74 × 105</td>
+		<td>2.91 × 4.13</td>
+		<td>88 × 125</td>
+		<td>3.46 × 4.92</td>
+		<td>81 × 114</td>
+		<td>3.19 × 4.49</td>
+		</tr>
+		<tr>
+		<th>8</th>
+		<td>52 × 74</td>
+		<td>2.05 × 2.91</td>
+		<td>62 × 88</td>
+		<td>2.44 × 3.46</td>
+		<td>57 × 81</td>
+		<td>2.24 × 3.19</td>
+		</tr>
+		<tr>
+		<th>9</th>
+		<td>37 × 52</td>
+		<td>1.46 × 2.05</td>
+		<td>44 × 62</td>
+		<td>1.73 × 2.44</td>
+		<td>40 × 57</td>
+		<td>1.57 × 2.24</td>
+		</tr>
+		<tr>
+		<th>10</th>
+		<td>26 × 37</td>
+		<td>1.02 × 1.46</td>
+		<td>31 × 44</td>
+		<td>1.22 × 1.73</td>
+		<td>28 × 40</td>
+		<td>1.10 × 1.57</td>
+		</tr>
+		</tbody></table>
+
+    <p style={{ marginTop: 25}}>
+	    <strong>A4纸张尺寸大小</strong><br />   
+
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;许多纸张尺寸标准的惯例已经存在于不同的时间和不同的国家。 今天，包括常用的A4尺寸大小的ISO216的A和B系列是几乎所有国家都使用的国际标准。 然而，在美洲和菲律宾的许多国家，“信封”等北美系列纸张尺寸更为普遍。
 
 		纸张尺寸会影响书写纸张，文具，卡片和一些打印文档。 信封的国际标准是ISO 269的C系列。
+
+
     </p>
-    <p style={{ marginTop: 15}}>
+    <p style={{ marginTop: 25}}>
 	    <strong>ISO 216</strong><br />   
 
-	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ISO 216规定了当今世界大多数国家使用的国际标准（ISO）纸张尺寸，尽管不在加拿大，美国，墨西哥或多米尼加共和国。 该标准定义了“A”和“B”系列纸张尺寸，其中<strong>A4是最常用的尺寸（210毫米 × 297毫米）</strong>。 两个补充标准ISO 217和ISO 269定义了相关的纸张尺寸; ISO 269“C”系列通常与A和B尺寸一起列出。
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ISO 216规定了当今世界大多数国家使用的国际标准（ISO）纸张尺寸，加拿大，美国，墨西哥或多米尼加共和国除外。 该标准定义了“A”和“B”系列纸张尺寸，其中<strong>A4是最常用的尺寸（210毫米 × 297毫米）</strong>。 两个补充标准ISO 217和ISO 269定义了相关的纸张尺寸; ISO 269“C”系列通常与A和B尺寸一起列出。
 		<br /><br />  
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 所有ISO 216，ISO 217和ISO 269纸张尺寸（除了某些信封外）在四舍五入至毫米的范围内具有相同的纵横比为2的平方根。 这个比例具有独特的性质，当以半宽方式切割或折叠时，半部分也具有相同的纵横比。 每个ISO纸张尺寸是同一系列中下一个较大尺寸面积的一半。
     </p>
-    <p style={{ marginTop: 15}}>
+    <p style={{ marginTop: 25}}>
 	    <strong>历史</strong><br />   
 
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1786年，德国科学家克里斯托弗·利希滕伯格（Georg Christoph Lichtenberg）在致约翰·贝克曼（Johann Beckmann）的一封信中描述了将纸张尺寸设置为纵横比2的平方根的优点。成为ISO纸张尺寸A2，A3，B3，B4和B5的格式是在法国开发的。他们被列入1798年关于出版物征税的法律，这部分是基于页面大小。
@@ -50,7 +171,7 @@ const SecondPage = () => (
 		<br />  		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ISO 269：1985，定义信封的C系列
 		<br />  		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ISO 217：2013，定义RA和SRA系列原始（“未修剪”）纸张尺寸
 	</p>
-    <p style={{ marginTop: 15}}>
+    <p style={{ marginTop: 25}}>
 	    <strong>容差</strong><br />   
 
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;标准中规定的容差是：<br />   
@@ -59,7 +180,79 @@ const SecondPage = () => (
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2、对于150至600毫米范围内的尺寸为±2.0毫米，<br />   
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3、600毫米以上的尺寸为±3.0毫米。<br />   
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这些与A，B和C系列之间的比较有关。
-    </p>	
+    </p>
+
+
+    <p style={{ marginTop: 25}}>
+    	<strong>北美纸张尺寸</strong><br />  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;美国、还有其他几个北美国家和菲律宾主要使用与世界其他地方不同的纸张尺寸系统。 目前的标准尺寸对于这个北美大陆来说是独一无二的，目前由于北美市场的规模以及来自该地区的软件和印刷硬件的激增，世界其他地方已经越来越熟悉这些尺寸。 
+<br /> <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Letter，Legal和Ledger / Tabloid</strong>是迄今为止这些日常活动中最常用的，也是CSS（Cascading Style Sheets，层叠样式表）中唯一包含的。
+
+<br /> <br />
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;信纸尺寸（8 <sup>1</sup>/2英寸×11英寸或216毫米×279毫米）的确切尺寸的起源在传统中已经丧失，并且没有很好的记载。 美国森林和造纸协会认为，尺寸起源于手工造纸时代，而11英寸的长度大约是“经验丰富的纸浆工人的手臂的平均最大伸展量”的四分之一。 这并不能解释宽度或宽高比。
+<br /> <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在北美以外，信纸尺寸也可以被称为“美国四重奏”。 如果接受一些修剪，尺寸确实是古代帝国印刷纸张大小的四分之一，即17 <sup>1</sup>/2英寸×22 <sup>1</sup>/2英寸（444毫米×572毫米）。
+    </p>
+
+	<table style={{ marginTop: 25, marginBottom: 0, fontSize: 15}}>
+	<caption>北美纸张尺寸（毫米与英寸两种单位）</caption>
+	<tbody><tr>
+	<th>尺寸大小</th>
+	<th>寸 × 寸</th>
+	<th>毫米 × 毫米</th>
+	<th>长宽比</th>
+	</tr>
+	<tr>
+	<th>Letter</th>
+	<td><span>8 <sup>1</sup>⁄<sub>2</sub></span> × 11</td>
+	<td>216 × 279</td>
+	<td>1.2941…</td>
+	</tr>
+	<tr>
+	<th>Legal</th>
+	<td><span>8 <sup>1</sup>⁄<sub>2</sub></span> × 14</td>
+	<td>216 × 356</td>
+	<td>1.6470…</td>
+	</tr>
+	<tr>
+	<th>Tabloid</th>
+	<td>11 × 17</td>
+	<td>279 × 432</td>
+	<td>1.5483…</td>
+	</tr>
+	<tr>
+	<th>Ledger</th>
+	<td>17 × 11</td>
+	<td>432 × 279</td>
+	<td>0.6470…</td>
+	</tr>
+	<tr>
+	<th>Junior Legal</th>
+	<td>5 × 8</td>
+	<td>127 × 203</td>
+	<td>1.6</td>
+	</tr>
+	<tr>
+	<th>Half Letter, Memo</th>
+	<td><span>5 <sup>1</sup>⁄<sub>2</sub></span> × <span>8 <sup>1</sup>⁄<sub>2</sub></span></td>
+	<td>140 × 216</td>
+	<td>1.5428…</td>
+	</tr>
+	<tr>
+	<th>Government Letter</th>
+	<td>8 × <span>10 <sup>1</sup>⁄<sub>2</sub></span></td>
+	<td>203 × 267</td>
+	<td>1.3125</td>
+	</tr>
+	<tr>
+	<th>Government Legal</th>
+	<td><span>8 <sup>1</sup>⁄<sub>2</sub></span> × 13</td>
+	<td>216 × 330</td>
+	<td>1.5294…</td>
+	</tr>
+	</tbody></table>
+
   </div>
 )
 
