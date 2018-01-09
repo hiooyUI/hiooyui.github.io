@@ -16,13 +16,13 @@ export default function Template({
         <div className="breadcrumb">
           <span className="breadcrumb-link"><Link to="/">首页</Link></span>          
           <span className="breadcrumb-separator">/</span>
-          <span className="breadcrumb-link"><Link to="/news">A4纸趣闻
+          <span className="breadcrumb-link"><Link to="/baike">纸张百科
 </Link></span>
           <span className="breadcrumb-separator">/</span>
           <span className="breadcrumb-link">{frontmatter.title}</span>
         </div>
-        <h1>{frontmatter.title}</h1>
-        <h2>{frontmatter.date}</h2>
+        <h1 style={{fontSize:18}}>{frontmatter.title}</h1>
+        <h2 style={{fontSize:12,fontWeight:400,color:'#999'}}>录入于：{frontmatter.date}</h2>
         <div
           className="cms-post-content"
           dangerouslySetInnerHTML={{ __html: html }}

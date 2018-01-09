@@ -717,12 +717,31 @@ html, body , body > div {
 }
 
 .news-list{
-  padding-left: 30px;
+  display: block;
+  padding: 20px 0;
 }
 
 .news-list li {
-  list-style: decimal;
+  display: block;
+  float: left;
   margin-bottom: 15px;
+  margin-right: 5px;
+}
+.news-list li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 4px;
+  font-family: "Hiragino Sans GB W3","\5FAE\8F6F\96C5\9ED1","\5b8b\4f53";
+}
+.news-list.orange li a{
+  background-color: orange;
+}
+.news-list.green li a {
+  background-color: green;
+}
+.news-list.purple li a {
+  background-color: purple;
 }
 .cms-post {
   padding-bottom: 50px;

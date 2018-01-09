@@ -41,11 +41,11 @@ const HeaderNav = ({location}) => {
             A4纸知多少
           </Link>
         </li>
-        <li className={pathname.match(/\/news/i) ? 'active' : null}>
+        <li className={pathname.match(/\/baike/i) ? 'active' : null}>
           <Link
-            to="/news"
+            to="/baike"
           >
-            A4纸趣闻
+            纸张百科
           </Link>
         </li>
         <li className={pathname.match(/\/price/i) ? 'active' : null}>

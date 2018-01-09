@@ -49,8 +49,8 @@ const Paragraphs = () => (
 					    <tr><td>A6</td><td>105 x 148</td><td>B6</td><td>125 x 176</td><td>C6</td><td>114 x 162</td></tr>
 					    <tr><td>A7</td><td>74 x 105</td><td>B7</td><td>88 x 125</td><td>C7</td><td>81 x 114</td></tr>
 					    <tr><td>A8</td><td>52 x 74</td><td>B8</td><td>62 x 88</td><td>C8</td><td>57 x 81</td></tr>
-					    <tr><td>A9</td><td>37 x 52</td><td>B9</td><td>44 x 62</td><td>C9</td><td>110 x 220</td></tr>
-					    <tr><td>A10</td><td>26 x 37</td><td>B10</td><td>31 x 44</td><td>C10</td><td>81 x 162</td></tr>
+					    <tr><td>A9</td><td>37 x 52</td><td>B9</td><td>44 x 62</td><td>C9</td><td>40 × 57</td></tr>
+					    <tr><td>A10</td><td>26 x 37</td><td>B10</td><td>31 x 44</td><td>C10</td><td>28 × 40</td></tr>
 			    	</tbody>
 			    </table>
 			</dd>
