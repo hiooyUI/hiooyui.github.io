@@ -69,7 +69,7 @@ const HeaderTop = () => (
     }}
     className="clearfix"
   >
-    <div style={{ margin: 0 , maxWidth: '50%'}} className="logo fl">
+    <div style={{ margin: 0 , maxWidth: '30%'}} className="logo fl">
       <Link
         to="/"
         style={{
@@ -81,7 +81,7 @@ const HeaderTop = () => (
       </Link>
     </div>
     <div style={{ margin: 0 , maxWidth: '50%'}} className="friends-link fr">
-      <a href="http://www.iampua.com/" target="_blank" style={{ fontSize: 16 , color: '#333'}}>泡学达人</a> | <a href="https://github.com/hiooyUI/hiooyui.github.io" rel="nofollow" target="_blank" style={{ fontSize: 16 , color: '#333'}}>Github</a>
+      <a href="http://www.iampua.com/" target="_blank" style={{ fontSize: 16 , color: '#333', textShadow: '2px 2px 0px #ddd'}}>Sponsor 泡学达人</a>
     </div>
   </div>
 )

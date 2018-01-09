@@ -694,6 +694,17 @@ html, body , body > div {
     font-weight: 700;
 }
 
+.index-nav-list.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 0 !important;
+    width: 100%;
+    background-color: #fff !important;
+    border-bottom: #ddd;
+    box-shadow: 2px 2px 2px #ddd;
+}
+
 .index-nav-list li{
     float: left;
     height: 40px;

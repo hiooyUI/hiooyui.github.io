@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
@@ -9,23 +9,25 @@ const InGeneral = () => (
         border: '1px solid #dfdfdf',
       }}
     >
-    <p style={{marginBottom:15}}><strong>A4纸尺寸（宽 × 高）：21厘米 × 29.7厘米（或 210毫米 × 297毫米）</strong></p>
+    <p style={{marginBottom:15}}><strong>A4纸尺寸大小（宽 × 高）：21厘米 × 29.7厘米（或 210毫米 × 297毫米）</strong></p>
     <p style={{marginBottom:15, textIndent:'2em'}}>我们平时所用的A4纸是全球使用的标准纸张尺寸（A4纸由ISO 216定义的。ISO 216定义了A、B、C三组纸张尺寸，C组纸张尺寸主要使用于信封），北美国家除外。 美国，加拿大和墨西哥的标准尺寸为8.5英寸×11英寸（约21.5厘米×27.9厘米），通常称为“信件”尺寸。 而A4纸稍微长一点，大约在8.27英寸乘11.75英寸（21厘米乘29.7厘米）。 这种和其他类型的“A”纸张尺寸基于公制测量系统并通过国际欧洲标准建立。</p>
     </div>	
 )
 
-const IndexNav = () => (
+const IndexNav = ({fixed}) => (
 	<ul 
-		className="index-nav-list clearfix"
+		className={'index-nav-list clearfix ' + fixed}
 		style={{
 			display: 'block',
 			marginTop: 15,
 	    	backgroundColor: '#efefef',
 		}}
+		id="index-nav-list"
 	>
-		<li><a rel="nofollow" href="#a4z-size">A4纸大小</a></li>
+		<li><a rel="nofollow" href="#a4z-size">A4纸尺寸大小</a></li>
 		<li><a rel="nofollow" href="#a4z-origin">A4纸形成的基础</a></li>
 		<li><a rel="nofollow" href="#a4z-weight">A4纸张重量</a></li>
+		<li><a rel="nofollow" href="#a4z-brand">A4纸哪个品牌好</a></li>
 		<li><a rel="nofollow" href="#a4z-pixel">A4纸像素分辨率换算</a></li>
 	</ul>
 )
@@ -33,7 +35,7 @@ const IndexNav = () => (
 const Paragraphs = () => (
 	<div style={{margin: '15px 0'}}>
 		<dl className="clearfix">
-			<dt id="a4z-size">① A4纸大小(单位：毫米)</dt>
+			<dt id="a4z-size">① A4纸尺寸大小(单位：毫米)</dt>
 			<dd>
 			    <table style={{ marginTop: 15, paddingLeft: 20}}>
 				    <tbody>
@@ -62,9 +64,10 @@ const Paragraphs = () => (
 					</p>
 				<img src={'/img/a4z.jpg'} alt="A4纸尺寸：21厘米 × 29.7厘米（210毫米 × 297毫米）" title="A4纸尺寸：21厘米 × 29.7厘米（210毫米 × 297毫米）"/>			
 			</dd>
-			<dt id="a4z-weight">③ A4纸张重量</dt>
+			<dt id="a4z-weight">③A4纸张重量</dt>
 			<dd>
-			<p style={{ marginTop: 15, paddingLeft: 20, textIndent:'2em'}}>欧洲纸张的重量基于公制系统，并在ISO标准536（最初于1976年开发并于1995年更新）标准化。欧洲和其他非美国纸张的加权基于每平方米的克数（g / m<sup>2</sup> ）为每种类型的纸张。 A4纸可用于大多数标准纸张重量; A4打印纸的重量为90克/平方米，而封面纸为250克/平方米。</p>			
+				<p style={{ marginTop: 15, paddingLeft: 20, textIndent:'2em'}}>根据纸张的厚度来分，比如60克、70克、75克、85克、120克等等，是指在单位面积纸的重量有多重，因为纸的密度基本上是一样的，在单位面积纸的厚度就越厚，纸的重量越重。办公用70克左右，80克的稍厚一些，手感更好，但贵一点，非专业打印用的话，没多大必要，市面上的复印店则为了省钱，经常会使用一些60克甚至更薄的纸。</p>	
+				<p style={{ marginTop: 15, paddingLeft: 20, textIndent:'2em'}}>欧洲纸张的重量基于公制系统，并在ISO标准536（最初于1976年开发并于1995年更新）标准化。欧洲和其他非美国纸张的加权基于每平方米的克数（g / m<sup>2</sup> ）为每种类型的纸张。 A4纸可用于大多数标准纸张重量; A4打印纸的重量为90克/平方米，而封面纸为250克/平方米。</p>			
 			</dd>
 			<dt id="a4z-pixel">④ A4纸像素分辨率换算</dt>
 			<dd>
@@ -75,23 +78,64 @@ const Paragraphs = () => (
 					<strong>分辨率为 300</strong> 像素/英寸：用于印刷，出版，杂志画报印刷等。此时，像素 <strong>宽 × 高</strong>  = （300 × 21 / 2.54） × （300 × 29.7 / 2.54）<strong> ≈ 2479 像素 × 3508 像素</strong>
 				</p>		
 				<p style={{ marginTop: 15, paddingLeft: 20}}>注意：<br/>分辨率（像素/英寸）：意思是每英寸像素的个数（1英寸=2.54厘米）。<br/>像素宽 = 宽（英寸） × 分辨率<br/>像素高 = 高（英寸） × 分辨率</p>
-			</dd>		
+			</dd>	
+			<dt id="a4z-brand">⑤ A4纸哪个品牌好</dt>
+			<dd>
+				<p style={{ marginTop: 15, paddingLeft: 20}}><strong>佳印-UPM欣乐</strong> (芬欧汇川旗下，芬欧汇川(常熟)纸业有限公司 十佳复印纸/打印纸品牌) </p>	
+				<p style={{ marginTop: 15, paddingLeft: 20}}><strong>旗舰-小钢炮-金旗舰</strong> (新加坡APP金光集团旗下，亚龙昆山纸业,十佳复印纸品牌)</p>
+				<p style={{ marginTop: 15, paddingLeft: 20}}><strong>Double A</strong> (泰国曼谷亿王亚哥集团，东南亚著名造纸品牌)</p>		
+				<p style={{ marginTop: 15, paddingLeft: 20}}><strong>幸运鸟</strong> (新加坡APP金光集团旗下，金华盛纸业（苏州工业园区）有限公司，十佳复印纸/打印纸品牌)</p>		
+				<p style={{ marginTop: 15, paddingLeft: 20}}><strong>金太阳-威尔</strong> (山东太阳纸业股份有限公司/兖州枫叶纸业，十佳复印纸品牌)</p>		
+				<p style={{ marginTop: 15, paddingLeft: 20}}><strong>百旺-高品乐</strong> (新加坡金鹰国际集团广东亚太纸业，十佳复印纸品牌)</p>		
+				<p style={{ marginTop: 15, paddingLeft: 20}}><strong>王子</strong> (日本王子制纸集团，十佳复印纸/打印纸品牌)</p>		
+				<p style={{ marginTop: 15, paddingLeft: 20}}><strong>永丰</strong> (中国驰名商标，四川永丰纸业股份有限公司，十佳复印纸品牌)</p>		
+				<p style={{ marginTop: 15, paddingLeft: 20}}><strong>安妮</strong> (厦门安妮股份有限公司 股票代码：002235，下称“安妮股份”)</p>		
+				<p style={{ marginTop: 15, paddingLeft: 20}}><strong>金丝雀</strong> (新加坡APP金光集团旗下，金鑫(清远)纸业有限公司）</p>				
+			</dd>	
 		</dl>
 	</div>
 )
-const IndexPage = () => (
-  <div style={{paddingBottom: 50}}>
-    <Helmet
-      title="A4纸尺寸大小是多少？什么是A4纸？标准A4纸像素分辨率如何换算？ - A4纸网"
-      meta={[
-        { name: 'description', content: 'A4纸网' },
-        { name: 'keywords', content: 'A4纸尺寸,A4纸大小,A4纸, A4纸网' },
-      ]}
-    />
-  	<InGeneral />
-  	<IndexNav />
-  	<Paragraphs />
-  </div>
-)
+class IndexPage extends Component {
+	constructor() {
+		super();
+        this.state = {
+            fixed: '',
+        };
+        this.shallFixedNav = this.shallFixedNav.bind(this);
+	}
+	componentDidMount() {
+		window.addEventListener('scroll', this.shallFixedNav);
+	}
+	componentWillUnmount() {
+		window.removeEventListener('scroll', this.shallFixedNav);
+	}
+	shallFixedNav = () => {
+		if(document.documentElement.scrollTop > 100 || window.pageYOffset > 100 || document.body.scrolltop > 100 ) {
+			this.setState({
+				fixed: 'fixed',
+			})
+		} else {
+			this.setState({
+				fixed: '',
+			})			
+		}
+	}
+	render() {
+	    return (
+		  <div style={{paddingBottom: 50}}>
+		    <Helmet
+		      title="A4纸尺寸大小是多少？A4纸品牌有哪些？A4纸价格多少？ - A4纸网"
+		      meta={[
+		        { name: 'description', content: 'A4纸网' },
+		        { name: 'keywords', content: 'A4纸尺寸,A4纸大小,A4纸, A4纸网' },
+		      ]}
+		    />
+		  	<InGeneral />
+		  	<IndexNav fixed={this.state.fixed}/>
+		  	<Paragraphs />
+		  </div>
+	    )
+	}
+}
 
 export default IndexPage
