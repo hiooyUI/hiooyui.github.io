@@ -1,0 +1,2 @@
+webpackJsonp([0xc0bce661a2bf],{359:function(t,a){t.exports={data:{markdownRemark:{html:'<blockquote>\n<p><strong>C1纸尺寸大小（宽 × 高）：64.8厘米 × 91.7厘米（或 648毫米 × 917毫米）</strong>   </p>\n</blockquote>\n<p><img src="/img/c_size_illustration2.png" alt="纸的尺寸"></p>',frontmatter:{date:"2017/09/25",path:"/baike/c1z",title:"C1纸尺寸,C1纸大小,C1纸的尺寸"}}},pathContext:{}}}});
+//# sourceMappingURL=path---baike-c-1-z-c0e88e3265665667a137.js.map

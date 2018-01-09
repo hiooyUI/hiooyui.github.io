@@ -1,0 +1,2 @@
+webpackJsonp([0x8573cee7c266],{349:function(t,e){t.exports={data:{markdownRemark:{html:'<blockquote>\n<p><strong>B10纸尺寸大小（宽 × 高）：3.1厘米 × 4.4厘米（或 31毫米 × 44毫米）</strong>   </p>\n</blockquote>\n<p><img src="/img/b_size_illustration2.png" alt="纸的尺寸"></p>',frontmatter:{date:"2017/09/25",path:"/baike/b10z",title:"B10纸尺寸,B10纸大小,B10纸的尺寸"}}},pathContext:{}}}});
+//# sourceMappingURL=path---baike-b-10-z-6551a1b5dfe3587a467e.js.map

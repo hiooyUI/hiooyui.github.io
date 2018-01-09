@@ -1,0 +1,2 @@
+webpackJsonp([0xdb51c55da08c],{344:function(t,a){t.exports={data:{markdownRemark:{html:'<blockquote>\n<p><strong>A7纸尺寸大小（宽 × 高）：7.4厘米 × 10.5厘米（或 74毫米 × 105毫米）</strong>   </p>\n</blockquote>\n<p><img src="/img/a_size_illustration2.png" alt="纸的尺寸"></p>',frontmatter:{date:"2017/09/25",path:"/baike/a7z",title:"A7纸尺寸,A7纸大小,A7纸的尺寸"}}},pathContext:{}}}});
+//# sourceMappingURL=path---baike-a-7-z-e524f3530850f175484b.js.map

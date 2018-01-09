@@ -1,0 +1,2 @@
+webpackJsonp([0xbbb00dc309ee],{340:function(t,a){t.exports={data:{markdownRemark:{html:'<blockquote>\n<p><strong>A3纸尺寸大小（宽 × 高）：29.7厘米 × 42厘米（或 297毫米 × 420毫米）</strong>   </p>\n</blockquote>\n<p><img src="/img/a_size_illustration2.png" alt="纸的尺寸"></p>',frontmatter:{date:"2017/09/25",path:"/baike/a3z",title:"A3纸尺寸,A3纸大小,A3纸的尺寸"}}},pathContext:{}}}});
+//# sourceMappingURL=path---baike-a-3-z-7e74f7223fda371d9e97.js.map

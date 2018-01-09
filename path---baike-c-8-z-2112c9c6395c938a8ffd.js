@@ -1,0 +1,2 @@
+webpackJsonp([25784005360573],{367:function(t,n){t.exports={data:{markdownRemark:{html:'<blockquote>\n<p><strong>C8纸尺寸大小（宽 × 高）：5.7厘米 × 8.1厘米（或 57毫米 × 81毫米）</strong>   </p>\n</blockquote>\n<p><img src="/img/c_size_illustration2.png" alt="纸的尺寸"></p>',frontmatter:{date:"2017/09/25",path:"/baike/c8z",title:"C8纸尺寸,C8纸大小,C8纸的尺寸"}}},pathContext:{}}}});
+//# sourceMappingURL=path---baike-c-8-z-2112c9c6395c938a8ffd.js.map

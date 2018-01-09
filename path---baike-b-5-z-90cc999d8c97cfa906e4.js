@@ -1,0 +1,2 @@
+webpackJsonp([83924756827678],{353:function(t,n){t.exports={data:{markdownRemark:{html:'<blockquote>\n<p><strong>B5纸尺寸大小（宽 × 高）：17.6厘米 × 25厘米（或 176毫米 × 250毫米）</strong>   </p>\n</blockquote>\n<p><img src="/img/b_size_illustration2.png" alt="纸的尺寸"></p>',frontmatter:{date:"2017/09/25",path:"/baike/b5z",title:"B5纸尺寸,B5纸大小,B5纸的尺寸"}}},pathContext:{}}}});
+//# sourceMappingURL=path---baike-b-5-z-90cc999d8c97cfa906e4.js.map

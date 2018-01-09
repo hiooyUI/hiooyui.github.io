@@ -1,0 +1,2 @@
+webpackJsonp([0x6a9d727a5fe2],{354:function(t,a){t.exports={data:{markdownRemark:{html:'<blockquote>\n<p><strong>B6纸尺寸大小（宽 × 高）：12.5厘米 × 17.6厘米（或 125毫米 × 176毫米）</strong>   </p>\n</blockquote>\n<p><img src="/img/b_size_illustration2.png" alt="纸的尺寸"></p>',frontmatter:{date:"2017/09/25",path:"/baike/b6z",title:"B6纸尺寸,B6纸大小,B6纸的尺寸"}}},pathContext:{}}}});
+//# sourceMappingURL=path---baike-b-6-z-ea208bfad7b56389709e.js.map

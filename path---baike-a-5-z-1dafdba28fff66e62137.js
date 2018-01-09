@@ -1,0 +1,2 @@
+webpackJsonp([0xf94144c293e2],{342:function(t,a){t.exports={data:{markdownRemark:{html:'<blockquote>\n<p><strong>A5纸尺寸大小（宽 × 高）：14.8厘米 × 21厘米（或 148毫米 × 210毫米）</strong>   </p>\n</blockquote>\n<p><img src="/img/a_size_illustration2.png" alt="纸的尺寸"></p>',frontmatter:{date:"2017/09/25",path:"/baike/a5z",title:"A5纸尺寸,A5纸大小,A5纸的尺寸"}}},pathContext:{}}}});
+//# sourceMappingURL=path---baike-a-5-z-1dafdba28fff66e62137.js.map

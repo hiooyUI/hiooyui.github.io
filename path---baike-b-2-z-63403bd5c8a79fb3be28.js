@@ -1,0 +1,2 @@
+webpackJsonp([0xd7518c01fbf1],{350:function(t,n){t.exports={data:{markdownRemark:{html:'<blockquote>\n<p><strong>B2纸尺寸大小（宽 × 高）：50厘米 × 70.7厘米（或 500毫米 × 707毫米）</strong>   </p>\n</blockquote>\n<p><img src="/img/b_size_illustration2.png" alt="纸的尺寸"></p>',frontmatter:{date:"2017/09/25",path:"/baike/b2z",title:"B2纸尺寸,B2纸大小,B2纸的尺寸"}}},pathContext:{}}}});
+//# sourceMappingURL=path---baike-b-2-z-63403bd5c8a79fb3be28.js.map

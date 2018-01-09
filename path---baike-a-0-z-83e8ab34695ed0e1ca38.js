@@ -1,0 +1,2 @@
+webpackJsonp([0x6ab1703fad80],{336:function(t,a){t.exports={data:{markdownRemark:{html:'<blockquote>\n<p><strong>A0纸尺寸大小（宽 × 高）：84.1厘米 × 11.89厘米（或 841毫米 × 1189毫米）</strong>   </p>\n</blockquote>\n<p><img src="/img/a_size_illustration2.png" alt="纸的尺寸"></p>',frontmatter:{date:"2017/09/25",path:"/baike/a0z",title:"A0纸尺寸,A0纸大小,A0纸的尺寸"}}},pathContext:{}}}});
+//# sourceMappingURL=path---baike-a-0-z-83e8ab34695ed0e1ca38.js.map

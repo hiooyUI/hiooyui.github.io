@@ -1,0 +1,2 @@
+webpackJsonp([0xfe0b1a3d2e36],{355:function(t,a){t.exports={data:{markdownRemark:{html:'<blockquote>\n<p><strong>B7纸尺寸大小（宽 × 高）：8.8厘米 × 12.5厘米（或 88毫米 × 125毫米）</strong>   </p>\n</blockquote>\n<p><img src="/img/b_size_illustration2.png" alt="纸的尺寸"></p>',frontmatter:{date:"2017/09/25",path:"/baike/b7z",title:"B7纸尺寸,B7纸大小,B7纸的尺寸"}}},pathContext:{}}}});
+//# sourceMappingURL=path---baike-b-7-z-7ce9d2699a031d43aea3.js.map

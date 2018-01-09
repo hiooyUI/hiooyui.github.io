@@ -1,0 +1,2 @@
+webpackJsonp([0xf5aabbda57c],{338:function(t,a){t.exports={data:{markdownRemark:{html:'<blockquote>\n<p><strong>A10纸尺寸大小（宽 × 高）：2.6厘米 × 3.7厘米（或 26毫米 × 37毫米）</strong>   </p>\n</blockquote>\n<p><img src="/img/a_size_illustration2.png" alt="纸的尺寸"></p>',frontmatter:{date:"2017/09/25",path:"/baike/a10z",title:"A10纸尺寸,A10纸大小,A10纸的尺寸"}}},pathContext:{}}}});
+//# sourceMappingURL=path---baike-a-10-z-f6d0fed9b8fbd1f37b14.js.map

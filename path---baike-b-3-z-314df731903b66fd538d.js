@@ -1,0 +1,2 @@
+webpackJsonp([74195608331604],{351:function(t,n){t.exports={data:{markdownRemark:{html:'<blockquote>\n<p><strong>B3纸尺寸大小（宽 × 高）：35.3厘米 × 50厘米（或 353毫米 × 500毫米）</strong>   </p>\n</blockquote>\n<p><img src="/img/b_size_illustration2.png" alt="纸的尺寸"></p>',frontmatter:{date:"2017/09/25",path:"/baike/b3z",title:"B3纸尺寸,B3纸大小,B3纸的尺寸"}}},pathContext:{}}}});
+//# sourceMappingURL=path---baike-b-3-z-314df731903b66fd538d.js.map

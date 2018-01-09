@@ -1,0 +1,2 @@
+webpackJsonp([36111578314285],{368:function(t,n){t.exports={data:{markdownRemark:{html:'<blockquote>\n<p><strong>C9纸尺寸大小（宽 × 高）：4厘米 × 5.7厘米（或 40毫米 × 57毫米）</strong>   </p>\n</blockquote>\n<p><img src="/img/c_size_illustration2.png" alt="纸的尺寸"></p>',frontmatter:{date:"2017/09/25",path:"/baike/c9z",title:"C9纸尺寸,C9纸大小,C9纸的尺寸"}}},pathContext:{}}}});
+//# sourceMappingURL=path---baike-c-9-z-cc006839cfef56c62b83.js.map

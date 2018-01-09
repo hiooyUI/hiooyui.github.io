@@ -1,52 +1,128 @@
 {
   "assetsByChunkName": {
     "component---src-templates-cms-template-js": [
-      "component---src-templates-cms-template-js-72ba95a56f46e626a76d.js",
-      "component---src-templates-cms-template-js-72ba95a56f46e626a76d.js.map"
+      "component---src-templates-cms-template-js-3b390e4a436e3255e5ff.js",
+      "component---src-templates-cms-template-js-3b390e4a436e3255e5ff.js.map"
     ],
-    "path---news-a-4-z-zhang-jia-2017-09-25": [
-      "path---news-a-4-z-zhang-jia-2017-09-25-d03a7eaf2bcbdcfcebc5.js",
-      "path---news-a-4-z-zhang-jia-2017-09-25-d03a7eaf2bcbdcfcebc5.js.map"
+    "path---baike-a-9-z": [
+      "path---baike-a-9-z-115b5b31e633db56ab1c.js",
+      "path---baike-a-9-z-115b5b31e633db56ab1c.js.map"
+    ],
+    "path---baike-a-10-z": [
+      "path---baike-a-10-z-f6d0fed9b8fbd1f37b14.js",
+      "path---baike-a-10-z-f6d0fed9b8fbd1f37b14.js.map"
+    ],
+    "path---baike-c-8-z": [
+      "path---baike-c-8-z-2112c9c6395c938a8ffd.js",
+      "path---baike-c-8-z-2112c9c6395c938a8ffd.js.map"
     ],
     "path---price": [
       "path---price-a0e39f21c11f6a62c5ab.js",
       "path---price-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---baike-b-0-z": [
+      "path---baike-b-0-z-296602bc619c23cee3b8.js",
+      "path---baike-b-0-z-296602bc619c23cee3b8.js.map"
+    ],
+    "path---baike-c-7-z": [
+      "path---baike-c-7-z-e51669809dffef5f2dfd.js",
+      "path---baike-c-7-z-e51669809dffef5f2dfd.js.map"
+    ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-fd1f305cd0d3201f07b4.js",
-      "component---src-pages-index-js-fd1f305cd0d3201f07b4.js.map"
+      "component---src-pages-index-js-f0388e79db98d9acccdb.js",
+      "component---src-pages-index-js-f0388e79db98d9acccdb.js.map"
+    ],
+    "path---baike-c-9-z": [
+      "path---baike-c-9-z-cc006839cfef56c62b83.js",
+      "path---baike-c-9-z-cc006839cfef56c62b83.js.map"
+    ],
+    "path---baike-a-1-z": [
+      "path---baike-a-1-z-90939c41149d894380e4.js",
+      "path---baike-a-1-z-90939c41149d894380e4.js.map"
+    ],
+    "path---baike-b-8-z": [
+      "path---baike-b-8-z-aac58d9ba1bf0d7384b0.js",
+      "path---baike-b-8-z-aac58d9ba1bf0d7384b0.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
-    "component---src-pages-news-js": [
-      "component---src-pages-news-js-9b8797417b0471c36164.js",
-      "component---src-pages-news-js-9b8797417b0471c36164.js.map"
+    "path---baike-c-3-z": [
+      "path---baike-c-3-z-30c3bdbb58b921a2c710.js",
+      "path---baike-c-3-z-30c3bdbb58b921a2c710.js.map"
     ],
-    "path---news-a-4-z-zhang-jia-2017-12-22-a": [
-      "path---news-a-4-z-zhang-jia-2017-12-22-a-861c6c83362a8ee2eabf.js",
-      "path---news-a-4-z-zhang-jia-2017-12-22-a-861c6c83362a8ee2eabf.js.map"
+    "path---baike-b-3-z": [
+      "path---baike-b-3-z-314df731903b66fd538d.js",
+      "path---baike-b-3-z-314df731903b66fd538d.js.map"
+    ],
+    "path---baike-c-2-z": [
+      "path---baike-c-2-z-ec43bc22a272265f0a4a.js",
+      "path---baike-c-2-z-ec43bc22a272265f0a4a.js.map"
+    ],
+    "path---baike-b-5-z": [
+      "path---baike-b-5-z-90cc999d8c97cfa906e4.js",
+      "path---baike-b-5-z-90cc999d8c97cfa906e4.js.map"
+    ],
+    "path---baike-c-10-z": [
+      "path---baike-c-10-z-357151ea66bdce99fcd3.js",
+      "path---baike-c-10-z-357151ea66bdce99fcd3.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-e5b09914ba5318b411b1.js",
-      "component---src-layouts-index-js-e5b09914ba5318b411b1.js.map"
+      "component---src-layouts-index-js-0bc8d2c03da2b9e2f8a6.js",
+      "component---src-layouts-index-js-0bc8d2c03da2b9e2f8a6.js.map"
+    ],
+    "path---baike-b-6-z": [
+      "path---baike-b-6-z-ea208bfad7b56389709e.js",
+      "path---baike-b-6-z-ea208bfad7b56389709e.js.map"
+    ],
+    "path---baike-a-0-z": [
+      "path---baike-a-0-z-83e8ab34695ed0e1ca38.js",
+      "path---baike-a-0-z-83e8ab34695ed0e1ca38.js.map"
     ],
     "component---src-pages-price-js": [
-      "component---src-pages-price-js-e3b7eff1402e2dbffabe.js",
-      "component---src-pages-price-js-e3b7eff1402e2dbffabe.js.map"
+      "component---src-pages-price-js-1489a2e7004e06aecd09.js",
+      "component---src-pages-price-js-1489a2e7004e06aecd09.js.map"
+    ],
+    "path---baike-a-8-z": [
+      "path---baike-a-8-z-ecd3fcd14e05616d346b.js",
+      "path---baike-a-8-z-ecd3fcd14e05616d346b.js.map"
+    ],
+    "component---src-pages-baike-js": [
+      "component---src-pages-baike-js-81ece8f9e5d149e0c173.js",
+      "component---src-pages-baike-js-81ece8f9e5d149e0c173.js.map"
+    ],
+    "path---baike-c-0-z": [
+      "path---baike-c-0-z-9c46e0a299b522e6b432.js",
+      "path---baike-c-0-z-9c46e0a299b522e6b432.js.map"
+    ],
+    "path---baike-b-1-z": [
+      "path---baike-b-1-z-13c427763b8fb297ec91.js",
+      "path---baike-b-1-z-13c427763b8fb297ec91.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
       "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---baike-b-10-z": [
+      "path---baike-b-10-z-6551a1b5dfe3587a467e.js",
+      "path---baike-b-10-z-6551a1b5dfe3587a467e.js.map"
+    ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-efa64cde3ba38a3049b8.js",
       "component---src-pages-404-js-efa64cde3ba38a3049b8.js.map"
     ],
+    "path---baike-a-4-z": [
+      "path---baike-a-4-z-95423d65958c426052b7.js",
+      "path---baike-a-4-z-95423d65958c426052b7.js.map"
+    ],
     "commons": [
       "commons-f56944167310e27c7fe2.js",
       "commons-f56944167310e27c7fe2.js.map"
+    ],
+    "path---baike-c-6-z": [
+      "path---baike-c-6-z-85cf4f98e838bee3516f.js",
+      "path---baike-c-6-z-85cf4f98e838bee3516f.js.map"
     ],
     "path---fun": [
       "path---fun-a0e39f21c11f6a62c5ab.js",
@@ -56,31 +132,71 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "path---news": [
-      "path---news-a0e39f21c11f6a62c5ab.js",
-      "path---news-a0e39f21c11f6a62c5ab.js.map"
+    "path---baike-a-6-z": [
+      "path---baike-a-6-z-d938d9c830724fb2e29f.js",
+      "path---baike-a-6-z-d938d9c830724fb2e29f.js.map"
     ],
-    "path---news-a-4-z-zhang-jia-2017-12-21": [
-      "path---news-a-4-z-zhang-jia-2017-12-21-a25e5d3ce38a75a6bebe.js",
-      "path---news-a-4-z-zhang-jia-2017-12-21-a25e5d3ce38a75a6bebe.js.map"
+    "path---baike-c-5-z": [
+      "path---baike-c-5-z-47fee222ac25e7f5b8e0.js",
+      "path---baike-c-5-z-47fee222ac25e7f5b8e0.js.map"
+    ],
+    "path---baike-a-3-z": [
+      "path---baike-a-3-z-7e74f7223fda371d9e97.js",
+      "path---baike-a-3-z-7e74f7223fda371d9e97.js.map"
+    ],
+    "path---baike-c-1-z": [
+      "path---baike-c-1-z-c0e88e3265665667a137.js",
+      "path---baike-c-1-z-c0e88e3265665667a137.js.map"
+    ],
+    "path---baike-b-9-z": [
+      "path---baike-b-9-z-4072349e659baf7210d6.js",
+      "path---baike-b-9-z-4072349e659baf7210d6.js.map"
+    ],
+    "path---baike-b-4-z": [
+      "path---baike-b-4-z-422c3be1520c2a1e9871.js",
+      "path---baike-b-4-z-422c3be1520c2a1e9871.js.map"
     ],
     "component---src-pages-fun-js": [
       "component---src-pages-fun-js-7f2b37a7b51943c96185.js",
       "component---src-pages-fun-js-7f2b37a7b51943c96185.js.map"
     ],
+    "path---baike-c-4-z": [
+      "path---baike-c-4-z-8933e6ca8bea3f3ef55f.js",
+      "path---baike-c-4-z-8933e6ca8bea3f3ef55f.js.map"
+    ],
+    "path---baike": [
+      "path---baike-a0e39f21c11f6a62c5ab.js",
+      "path---baike-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "app": [
-      "app-17ea888e651b56740159.js",
+      "app-e444d69591f0352ce777.js",
       "build-js-styles.css",
-      "app-17ea888e651b56740159.js.map",
+      "app-e444d69591f0352ce777.js.map",
       "build-js-styles.css.map"
+    ],
+    "path---baike-b-2-z": [
+      "path---baike-b-2-z-63403bd5c8a79fb3be28.js",
+      "path---baike-b-2-z-63403bd5c8a79fb3be28.js.map"
+    ],
+    "path---baike-a-7-z": [
+      "path---baike-a-7-z-e524f3530850f175484b.js",
+      "path---baike-a-7-z-e524f3530850f175484b.js.map"
+    ],
+    "path---baike-a-2-z": [
+      "path---baike-a-2-z-1948ec4115c0a0bc4ac1.js",
+      "path---baike-a-2-z-1948ec4115c0a0bc4ac1.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "path---news-a-4-z-zhang-jia-2017-12-22": [
-      "path---news-a-4-z-zhang-jia-2017-12-22-650bcdf43d634c5e9342.js",
-      "path---news-a-4-z-zhang-jia-2017-12-22-650bcdf43d634c5e9342.js.map"
+    "path---baike-a-5-z": [
+      "path---baike-a-5-z-1dafdba28fff66e62137.js",
+      "path---baike-a-5-z-1dafdba28fff66e62137.js.map"
+    ],
+    "path---baike-b-7-z": [
+      "path---baike-b-7-z-7ce9d2699a031d43aea3.js",
+      "path---baike-b-7-z-7ce9d2699a031d43aea3.js.map"
     ]
   }
 }

@@ -1,0 +1,2 @@
+webpackJsonp([0xcac5f59605df],{352:function(t,a){t.exports={data:{markdownRemark:{html:'<blockquote>\n<p><strong>B4纸尺寸大小（宽 × 高）：25厘米 × 35.3厘米（或 250毫米 × 353毫米）</strong>   </p>\n</blockquote>\n<p><img src="/img/b_size_illustration2.png" alt="纸的尺寸"></p>',frontmatter:{date:"2017/09/25",path:"/baike/b4z",title:"B4纸尺寸,B4纸大小,B4纸的尺寸"}}},pathContext:{}}}});
+//# sourceMappingURL=path---baike-b-4-z-422c3be1520c2a1e9871.js.map

@@ -1,0 +1,2 @@
+webpackJsonp([0x7724d6e3500b],{348:function(t,n){t.exports={data:{markdownRemark:{html:'<blockquote>\n<p><strong>B1纸尺寸大小（宽 × 高）：70.7厘米 × 100厘米（或 707毫米 × 1000毫米）</strong>   </p>\n</blockquote>\n<p><img src="/img/b_size_illustration2.png" alt="纸的尺寸"></p>',frontmatter:{date:"2017/09/25",path:"/baike/b1z",title:"B1纸尺寸,B1纸大小,B1纸的尺寸"}}},pathContext:{}}}});
+//# sourceMappingURL=path---baike-b-1-z-13c427763b8fb297ec91.js.map

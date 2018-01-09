@@ -1,0 +1,2 @@
+webpackJsonp([43692881882673],{337:function(t,a){t.exports={data:{markdownRemark:{html:'<blockquote>\n<p><strong>A1纸尺寸大小（宽 × 高）：59.4厘米 × 84.1厘米（或 594毫米 × 841毫米）</strong>   </p>\n</blockquote>\n<p><img src="/img/a_size_illustration2.png" alt="纸的尺寸"></p>',frontmatter:{date:"2017/09/25",path:"/baike/a1z",title:"A1纸尺寸,A1纸大小,A1纸的尺寸"}}},pathContext:{}}}});
+//# sourceMappingURL=path---baike-a-1-z-90939c41149d894380e4.js.map

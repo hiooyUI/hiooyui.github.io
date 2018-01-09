@@ -1,0 +1,2 @@
+webpackJsonp([32658141287728],{347:function(t,n){t.exports={data:{markdownRemark:{html:'<blockquote>\n<p><strong>B0纸尺寸大小（宽 × 高）：100厘米 × 141.4厘米（或 1000毫米 × 1414毫米）</strong>   </p>\n</blockquote>\n<p><img src="/img/b_size_illustration2.png" alt="纸的尺寸"></p>',frontmatter:{date:"2017/09/25",path:"/baike/b0z",title:"B0纸尺寸,B0纸大小,B0纸的尺寸"}}},pathContext:{}}}});
+//# sourceMappingURL=path---baike-b-0-z-296602bc619c23cee3b8.js.map

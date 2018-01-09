@@ -1,0 +1,2 @@
+webpackJsonp([76258891910705],{361:function(t,n){t.exports={data:{markdownRemark:{html:'<blockquote>\n<p><strong>C2纸尺寸大小（宽 × 高）：45.8厘米 × 64.8厘米（或 458毫米 × 648毫米）</strong>   </p>\n</blockquote>\n<p><img src="/img/c_size_illustration2.png" alt="纸的尺寸"></p>',frontmatter:{date:"2017/09/25",path:"/baike/c2z",title:"C2纸尺寸,C2纸大小,C2纸的尺寸"}}},pathContext:{}}}});
+//# sourceMappingURL=path---baike-c-2-z-ec43bc22a272265f0a4a.js.map

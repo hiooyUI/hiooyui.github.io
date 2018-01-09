@@ -1,0 +1,2 @@
+webpackJsonp([51535488283752],{356:function(t,n){t.exports={data:{markdownRemark:{html:'<blockquote>\n<p><strong>B8纸尺寸大小（宽 × 高）：6.2米 × 8.8厘米（或 62毫米 × 88毫米）</strong>   </p>\n</blockquote>\n<p><img src="/img/b_size_illustration2.png" alt="纸的尺寸"></p>',frontmatter:{date:"2017/09/25",path:"/baike/b8z",title:"B8纸尺寸,B8纸大小,B8纸的尺寸"}}},pathContext:{}}}});
+//# sourceMappingURL=path---baike-b-8-z-aac58d9ba1bf0d7384b0.js.map

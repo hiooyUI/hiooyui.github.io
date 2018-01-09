@@ -1,0 +1,2 @@
+webpackJsonp([64718800549172],{362:function(t,n){t.exports={data:{markdownRemark:{html:'<blockquote>\n<p><strong>C3纸尺寸大小（宽 × 高）：32.4厘米 × 45.8厘米（或 324毫米 × 458毫米）</strong>   </p>\n</blockquote>\n<p><img src="/img/c_size_illustration2.png" alt="纸的尺寸"></p>',frontmatter:{date:"2017/09/25",path:"/baike/c3z",title:"C3纸尺寸,C3纸大小,C3纸的尺寸"}}},pathContext:{}}}});
+//# sourceMappingURL=path---baike-c-3-z-30c3bdbb58b921a2c710.js.map

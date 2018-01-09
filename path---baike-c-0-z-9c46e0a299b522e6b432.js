@@ -1,0 +1,2 @@
+webpackJsonp([0x75e23d178df7],{358:function(t,n){t.exports={data:{markdownRemark:{html:'<blockquote>\n<p><strong>C0纸尺寸大小（宽 × 高）：91.7厘米 × 12.97厘米（或 917毫米 × 1297毫米）</strong>   </p>\n</blockquote>\n<p><img src="/img/c_size_illustration2.png" alt="纸的尺寸"></p>',frontmatter:{date:"2017/09/25",path:"/baike/c0z",title:"C0纸尺寸,C0纸大小,C0纸的尺寸"}}},pathContext:{}}}});
+//# sourceMappingURL=path---baike-c-0-z-9c46e0a299b522e6b432.js.map

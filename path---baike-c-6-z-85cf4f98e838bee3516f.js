@@ -1,0 +1,2 @@
+webpackJsonp([0x99736fa2ae2c],{365:function(t,a){t.exports={data:{markdownRemark:{html:'<blockquote>\n<p><strong>C6纸尺寸大小（宽 × 高）：11.4厘米 × 16.2厘米（或 114毫米 × 162毫米）</strong>   </p>\n</blockquote>\n<p><img src="/img/c_size_illustration2.png" alt="纸的尺寸"></p>',frontmatter:{date:"2017/09/25",path:"/baike/c6z",title:"C6纸尺寸,C6纸大小,C6纸的尺寸"}}},pathContext:{}}}});
+//# sourceMappingURL=path---baike-c-6-z-85cf4f98e838bee3516f.js.map

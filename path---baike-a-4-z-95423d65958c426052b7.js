@@ -1,0 +1,2 @@
+webpackJsonp([0x9877b2c13d41],{341:function(t,a){t.exports={data:{markdownRemark:{html:'<blockquote>\n<p><strong>A4纸尺寸大小（宽 × 高）：21厘米 × 29.7厘米（或 210毫米 × 297毫米）</strong>   </p>\n</blockquote>\n<p><img src="/img/a_size_illustration2.png" alt="纸的尺寸"></p>',frontmatter:{date:"2017/09/25",path:"/baike/a4z",title:"A4纸尺寸,A4纸大小,A4纸的尺寸"}}},pathContext:{}}}});
+//# sourceMappingURL=path---baike-a-4-z-95423d65958c426052b7.js.map

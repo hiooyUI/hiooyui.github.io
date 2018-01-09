@@ -1,0 +1,2 @@
+webpackJsonp([0xc2b5f1e11ca8],{357:function(t,a){t.exports={data:{markdownRemark:{html:'<blockquote>\n<p><strong>B9纸尺寸大小（宽 × 高）：4.4厘米 × 6.2厘米（或 44毫米 × 62毫米）</strong>   </p>\n</blockquote>\n<p><img src="/img/b_size_illustration2.png" alt="纸的尺寸"></p>',frontmatter:{date:"2017/09/25",path:"/baike/b9z",title:"B9纸尺寸,B9纸大小,B9纸的尺寸"}}},pathContext:{}}}});
+//# sourceMappingURL=path---baike-b-9-z-4072349e659baf7210d6.js.map

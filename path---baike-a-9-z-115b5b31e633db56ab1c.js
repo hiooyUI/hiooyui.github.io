@@ -1,0 +1,2 @@
+webpackJsonp([0xecb2ffaefc8],{346:function(t,a){t.exports={data:{markdownRemark:{html:'<blockquote>\n<p><strong>A9纸尺寸大小（宽 × 高）：3.7厘米 × 5.2厘米（或 37毫米 × 52毫米）</strong>   </p>\n</blockquote>\n<p><img src="/img/a_size_illustration2.png" alt="纸的尺寸"></p>',frontmatter:{date:"2017/09/25",path:"/baike/a9z",title:"A9纸尺寸,A9纸大小,A9纸的尺寸"}}},pathContext:{}}}});
+//# sourceMappingURL=path---baike-a-9-z-115b5b31e633db56ab1c.js.map

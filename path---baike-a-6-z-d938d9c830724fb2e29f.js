@@ -1,0 +1,2 @@
+webpackJsonp([0xa7037a785be9],{343:function(t,a){t.exports={data:{markdownRemark:{html:'<blockquote>\n<p><strong>A6纸尺寸大小（宽 × 高）：10.5厘米 × 14.8厘米（或 105毫米 × 148毫米）</strong>   </p>\n</blockquote>\n<p><img src="/img/a_size_illustration2.png" alt="纸的尺寸"></p>',frontmatter:{date:"2017/09/25",path:"/baike/a6z",title:"A6纸尺寸,A6纸大小,A6纸的尺寸"}}},pathContext:{}}}});
+//# sourceMappingURL=path---baike-a-6-z-d938d9c830724fb2e29f.js.map

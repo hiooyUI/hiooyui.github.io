@@ -1,0 +1,2 @@
+webpackJsonp([99625844905450],{360:function(t,n){t.exports={data:{markdownRemark:{html:'<blockquote>\n<p><strong>C10纸尺寸大小（宽 × 高）：2.8厘米 × 4厘米（或 28毫米 × 40毫米）</strong>   </p>\n</blockquote>\n<p><img src="/img/c_size_illustration2.png" alt="纸的尺寸"></p>',frontmatter:{date:"2017/09/25",path:"/baike/c10z",title:"C10纸尺寸,C10纸大小,C10纸的尺寸"}}},pathContext:{}}}});
+//# sourceMappingURL=path---baike-c-10-z-357151ea66bdce99fcd3.js.map

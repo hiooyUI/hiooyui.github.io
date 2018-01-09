@@ -1,0 +1,2 @@
+webpackJsonp([0xdf42e9fd2afe],{339:function(t,a){t.exports={data:{markdownRemark:{html:'<blockquote>\n<p><strong>A2纸尺寸大小（宽 × 高）：42厘米 × 59.4厘米（或 420毫米 × 594毫米）</strong>   </p>\n</blockquote>\n<p><img src="/img/a_size_illustration2.png" alt="纸的尺寸"></p>',frontmatter:{date:"2017/09/25",path:"/baike/a2z",title:"A2纸尺寸,A2纸大小,A2纸的尺寸"}}},pathContext:{}}}});
+//# sourceMappingURL=path---baike-a-2-z-1948ec4115c0a0bc4ac1.js.map
