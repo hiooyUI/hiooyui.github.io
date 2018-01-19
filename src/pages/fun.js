@@ -29,11 +29,11 @@ const SecondPage = () => (
 		<tr>
 		<th>尺寸大小</th>
 		<th>毫米 × 毫米</th>
-		<th>寸 × 寸</th>
+		<th>英寸 × 英寸</th>
 		<th>毫米 × 毫米</th>
-		<th>寸 × 寸</th>
+		<th>英寸 × 英寸</th>
 		<th>毫米 × 毫米</th>
-		<th>寸 × 寸</th>
+		<th>英寸 × 英寸</th>
 		</tr>
 		<tr>
 		<th>0</th>
@@ -182,14 +182,15 @@ const SecondPage = () => (
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这些与A，B和C系列之间的比较有关。
     </p>
 
-
     <p style={{ marginTop: 25}}>
     	<strong>北美纸张尺寸</strong><br />  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;美国、还有其他几个北美国家和菲律宾主要使用与世界其他地方不同的纸张尺寸系统。 目前的标准尺寸对于这个北美大陆来说是独一无二的，目前由于北美市场的规模以及来自该地区的软件和印刷硬件的激增，世界其他地方已经越来越熟悉这些尺寸。 
 <br /> <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Letter，Legal和Ledger / Tabloid</strong>是迄今为止这些日常活动中最常用的，也是CSS（Cascading Style Sheets，层叠样式表）中唯一包含的。
-
 <br /> <br />
+	<span style={{ marginTop: 0,textAlign:'center',marginBottom: 15,display:'block'}}>
+    <img src={'/img/a4nletter.jpg'} alt="A4纸与Letter纸的区别" title="A4纸与Letter纸的区别"/>
+    </span>
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;信纸尺寸（8 <sup>1</sup>/2英寸×11英寸或216毫米×279毫米）的确切尺寸的起源在传统中已经丧失，并且没有很好的记载。 美国森林和造纸协会认为，尺寸起源于手工造纸时代，而11英寸的长度大约是“经验丰富的纸浆工人的手臂的平均最大伸展量”的四分之一。 这并不能解释宽度或宽高比。
 <br /> <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在北美以外，信纸尺寸也可以被称为“美国四重奏”。 如果接受一些修剪，尺寸确实是古代帝国印刷纸张大小的四分之一，即17 <sup>1</sup>/2英寸×22 <sup>1</sup>/2英寸（444毫米×572毫米）。
@@ -199,7 +200,7 @@ const SecondPage = () => (
 	<caption>北美纸张尺寸（毫米与英寸两种单位）</caption>
 	<tbody><tr>
 	<th>尺寸大小</th>
-	<th>寸 × 寸</th>
+	<th>英寸 × 英寸</th>
 	<th>毫米 × 毫米</th>
 	<th>长宽比</th>
 	</tr>
@@ -252,7 +253,7 @@ const SecondPage = () => (
 	<td>1.5294…</td>
 	</tr>
 	</tbody></table>
-
+	
   </div>
 )
 

@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^a4z.cn [NC]
+RewriteRule ^(.*)$ http://www.a4z.cn/$1 [L,R=301]
+
+<Files ~ "^.(htaccess|htpasswd)$">
+deny from all
+</Files>
+ErrorDocument 404 /404.html
+order deny,allow

@@ -675,6 +675,7 @@ html, body , body > div {
     float: left;
     height: 40px;
     line-height: 40px;
+    display: block;
 }
 .nav-list li.active{
     color: #ff9c00;
@@ -692,6 +693,18 @@ html, body , body > div {
 .nav-list>li:hover a, .nav-list>li:hover, .nav-list>.active a {
     color: #ff9c00;
     font-weight: 700;
+}
+
+.footer {
+  color: #555;
+}
+
+.footer a {
+  color: #555;
+}
+.footer a:hover {
+  color: red;
+  text-decoration: underline;
 }
 
 .index-nav-list.fixed {
@@ -714,6 +727,32 @@ html, body , body > div {
 .index-nav-list li a{
     padding: 0 25px;
     color: #333;
+}
+
+.friendlinks{
+  padding: 15px;
+  border: 1px solid #efefef;
+  color: #555;
+}
+
+.friendlinks dt {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.friendlinks dd {
+  margin-bottom: 0;
+  font-size: 12px;
+  padding:5px;
+}
+
+.friendlinks a {
+  color: #999;
+}
+
+.friendlinks a:hover{
+  text-decoration: underline;
 }
 
 .news-list{
@@ -749,4 +788,67 @@ html, body , body > div {
 .cms-post p {
   text-indent: 2em;
   margin-bottom: 15px;
+}
+.price-list {
+  padding-bottom: 15px;
+}
+
+.price-list a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  float:left;
+}
+.brand-list strong {
+  font-weight: 400;
+  padding:0 10px;
+}
+.brand-list strong:first-of-type {
+  padding-left: 0;
+}
+.product-list .item{
+  display: block;
+  border-bottom: 1px dashed #ddd;
+  padding:20px 0;
+}
+.product-list .image {
+  display: block;
+  text-align: center;
+}
+.product-list .image img {
+  width: 100%;
+}
+.product-list .line-1 {
+  display: block;
+  padding: 10px 0;
+  color: #ff9c00;
+}
+.product-list .line-2 a {
+  color: #999;
+}
+.product-list .line-2 .price {
+  color: #ff5000;
+}
+.product-list .line-2 span {
+  font-size: 12px;
+}
+.product-list .line-2 em {
+  font-style: normal;
+}
+.product-list .line-2 .price em {
+  font-size: 24px;
+  font-weight: 700;
+}
+@media screen and (max-width: 800px) {
+  .header-nav{
+    width: 100%;
+    overflow-x:auto;
+    overflow-y: hidden;
+  }
+  .nav-list{
+    padding:0 !important;
+    min-width: 720px;
+  }
 }

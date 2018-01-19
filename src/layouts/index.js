@@ -30,6 +30,7 @@ const HeaderNav = ({location}) => {
         <li className={pathname === '/' ? 'active' : null}>
           <Link
             to="/"
+            title={'A4纸尺寸大小'}
           >
             首页
           </Link>
@@ -37,6 +38,7 @@ const HeaderNav = ({location}) => {
         <li className={pathname.match(/\/fun/i) ? 'active' : null}>
           <Link
             to="/fun"
+            title={'A4纸知多少'}
           >
             A4纸知多少
           </Link>
@@ -44,6 +46,7 @@ const HeaderNav = ({location}) => {
         <li className={pathname.match(/\/baike/i) ? 'active' : null}>
           <Link
             to="/baike"
+            title={'A4纸网纸张百科'}
           >
             纸张百科
           </Link>
@@ -51,8 +54,17 @@ const HeaderNav = ({location}) => {
         <li className={pathname.match(/\/price/i) ? 'active' : null}>
           <Link
             to="/price"
+            title={'A4纸价格'}
           >
             A4纸价格
+          </Link>
+        </li>
+        <li className={pathname.match(/\/bbs/i) ? 'active' : null}>
+          <Link
+            to="/bbs"
+            title={'A4纸畅言吧'}          
+          >
+            A4纸畅言吧
           </Link>
         </li>
       </ul>
@@ -76,8 +88,9 @@ const HeaderTop = () => (
           color: '#ff9c00',
           textDecoration: 'none',
         }}
+        title={"A4纸网首页"}
       >
-        <img src={'/img/logo.png'} alt="A4纸网" />
+        <img src={'/img/logo.png'} alt="A4纸网LOGO"/>
       </Link>
     </div>
     <div style={{ margin: 0 , maxWidth: '50%'}} className="friends-link fr">
@@ -114,8 +127,9 @@ const Footer = () => (
       width:'100%',
       background: '#efefef',
       borderTop: '1px solid #eee',
-      fontSize: 14,
+      fontSize: 12,
     }}
+    className="footer"
   >
     <div
       style={{
@@ -126,9 +140,9 @@ const Footer = () => (
       }}
     >
       注：本站内容全部原创或者来源于网络，如遇引用版权问题，欢迎与本站站长联系！<br /><br />
-      <a href="mailto:kbl_1794@qq.com" rel="nofollow">联系站长</a> | <a href="mailto:kbl_1794@qq.com" rel="nofollow">商务合作</a><br />
-      友情链接：<a href="http://www.iampua.com/" target="_blank">泡妞秘籍</a> | <a href="mailto:kbl_1794@qq.com" rel="nofollow">申请友情链接</a><br />
-      A4纸网 - 专注于A4纸  保留所有权 © 2017~2018 a4z.cn <img src="/img/beiantu.png" style={{verticalAlign: 'middle'}} alt="A4纸网备案图标" /> 粤ICP备18002963号
+      <Link to="/" title="A4纸尺寸大小">A4纸网首页</Link> - <Link to="/fun" title="A4纸知多少">A4纸知多少</Link> - <Link to="/baike" title="A4纸网纸张百科">纸张百科</Link> - <Link to="/price" title="A4纸价格">A4纸价格</Link> - <Link to="/bbs" title="A4纸畅言吧">A4纸畅言吧</Link><br />
+      <a href="mailto:kbl_1794@qq.com" rel="nofollow">联系站长</a> | <a href="mailto:kbl_1794@qq.com" rel="nofollow">商务合作</a> | <Link to="/message">在线留言</Link><br />
+      A4纸网 - 专注于A4纸  保留所有权 © 2017~2018 a4z.cn | 特聘法律顾问:杨律师 | <img src="/img/beiantu.png" style={{verticalAlign: 'middle'}} alt="A4纸网备案图标" /> 粤ICP备18002963号
     </div>
   </div>
 )
@@ -159,14 +173,27 @@ const ReturnTop = () => (
   >个</div>
 )
 
+const FlagCounter = () => (
+  <div
+    className="flag-counter" 
+    style={{
+      position:'fixed',
+      left:3,
+      bottom:0,
+    }}
+  >
+    <a href="https://info.flagcounter.com/tD7Y" rel="nofollow" title="本站2018年1月17日起访客情况统计"><img src="https://s11.flagcounter.com/count2/tD7Y/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" /></a>
+  </div>
+)
+
 class TemplateWrapper extends Component {
   render() {
     const { children, location } = this.props;
     return (
       <div style={{minHeight:'100%',position:'relative'}}>
         <Helmet
-          link={[{type:'image/x-icon',rel:'shortcut icon',href:'/favicon.ico'}]}
-          script={[{src:'https://hm.baidu.com/hm.js?96d9604e16c1245896d37f6e50c29669'}]}
+          link={[{type:'image/x-icon',rel:'shortcut icon',href:'/favicon.ico'},{href:'https://cdn.bootcss.com/pace/1.0.2/themes/yellow/pace-theme-minimal.min.css',rel:'stylesheet'}]}
+          script={[{src:'https://hm.baidu.com/hm.js?96d9604e16c1245896d37f6e50c29669'},{src:'https://cdn.bootcss.com/pace/1.0.2/pace.min.js'}]}
         />
         <Header location={location}/>
         <div
@@ -174,12 +201,14 @@ class TemplateWrapper extends Component {
             margin: '0 auto',
             maxWidth: 960,
             padding: '0px 1.0875rem 20px',
+            overflow: 'auto',
           }}
         >
           {children()}
         </div>
         <Footer />
         <ReturnTop />
+        <FlagCounter />
       </div>
     )
   }

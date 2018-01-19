@@ -8,9 +8,14 @@ const InGeneral = () => (
         padding: 20,
         border: '1px solid #dfdfdf',
       }}
+      className="clearfix"
     >
-    <p style={{marginBottom:15}}><strong>A4纸尺寸大小（宽 × 高）：21厘米 × 29.7厘米（或 210毫米 × 297毫米）</strong></p>
-    <p style={{marginBottom:15, textIndent:'2em'}}>我们平时所用的A4纸是全球使用的标准纸张尺寸（A4纸由ISO 216定义的。ISO 216定义了A、B、C三组纸张尺寸，C组纸张尺寸主要使用于信封），北美国家除外。 美国，加拿大和墨西哥的标准尺寸为8.5英寸×11英寸（约21.5厘米×27.9厘米），通常称为“信件”尺寸。 而A4纸稍微长一点，大约在8.27英寸乘11.75英寸（21厘米乘29.7厘米）。 这种和其他类型的“A”纸张尺寸基于公制测量系统并通过国际欧洲标准建立。</p>
+      <div className="fl" style={{width:'70%'}}>
+      <p style={{marginBottom:15}} title="A4纸尺寸大小"><strong style={{textShadow:'rgb(221, 221, 221) 2px 2px 0px'}}>A4纸尺寸大小（宽 × 高）：21厘米 × 29.7厘米（或 210毫米 × 297毫米）</strong></p>
+	    <p style={{marginBottom:15, textIndent:'2em'}}>我们平时所用的A4纸是全球使用的标准纸张尺寸（A4纸由ISO 216定义的。ISO 216定义了A、B、C三组纸张尺寸，C组纸张尺寸主要使用于信封），北美国家除外。 美国，加拿大和墨西哥的标准尺寸为8.5英寸×11英寸（约21.5厘米×27.9厘米），通常称为“信件”尺寸。 而<strong>A4纸稍微长一点，大约在8.27英寸 × 11.75英寸（21厘米 × 29.7厘米）</strong>。 这种和其他类型的“A”纸张尺寸基于公制测量系统并通过国际欧洲标准建立。</p>
+	    <p style={{marginBottom:15, textIndent:'2em'}}>那么<strong style={{textShadow:'rgb(221, 221, 221) 2px 2px 0px'}}>A4纸是几寸? 8.91寸 × 6.3寸</strong>。寸也是常说的中国的市寸，10寸 = 1尺，10尺 = 1仗，3尺 = 1米，所以1寸=3.33333333333333厘米</p>
+	   </div>
+	   <div className="fr" style={{width:'28%'}}><img src={'/img/a4p.jpg'} alt="A4纸尺寸：21厘米 × 29.7厘米（210毫米 × 297毫米）" title="A4纸尺寸：21厘米 × 29.7厘米（210毫米 × 297毫米）"/>	</div>
     </div>	
 )
 
@@ -24,33 +29,33 @@ const IndexNav = ({fixed}) => (
 		}}
 		id="index-nav-list"
 	>
-		<li><a rel="nofollow" href="#a4z-size">A4纸尺寸大小</a></li>
-		<li><a rel="nofollow" href="#a4z-origin">A4纸形成的基础</a></li>
-		<li><a rel="nofollow" href="#a4z-weight">A4纸张重量</a></li>
-		<li><a rel="nofollow" href="#a4z-pixel">A4纸像素分辨率换算</a></li>
-		<li><a rel="nofollow" href="#a4z-brand">A4纸哪个品牌好</a></li>
+		<li><a rel="nofollow" href="#a4z-size" title="A4纸尺寸大小">A4纸尺寸大小</a></li>
+		<li><a rel="nofollow" href="#a4z-origin" title="A4纸形成的基础">A4纸形成的基础</a></li>
+		<li><a rel="nofollow" href="#a4z-weight" title="A4纸张重量">A4纸张重量</a></li>
+		<li><a rel="nofollow" href="#a4z-pixel" title="A4纸像素分辨率换算">A4纸像素分辨率换算</a></li>
+		<li><a rel="nofollow" href="#a4z-brand" title="A4纸哪个品牌好">A4纸哪个品牌好</a></li>
 	</ul>
 )
 
 const Paragraphs = () => (
 	<div style={{margin: '15px 0'}}>
 		<dl className="clearfix">
-			<dt id="a4z-size">① A4纸尺寸大小(单位：毫米)</dt>
+			<dt id="a4z-size" title="A4纸尺寸大小">① A4纸尺寸大小(单位：毫米)</dt>
 			<dd>
 			    <table style={{ marginTop: 15, paddingLeft: 20}}>
 				    <tbody>
 					    <tr><td colSpan={2}>A纸</td><td colSpan={2}>B纸</td><td colSpan={2}>C纸</td></tr>
-					    <tr><td>A0</td><td>841 x 1189</td><td>B0</td><td>1000 x 1414</td><td>C0</td><td>917 x 1297</td></tr>
-					    <tr><td>A1</td><td>594 x 841</td><td>B1</td><td>707 x 1000</td><td>C1</td><td>648 x 917</td></tr>
-					    <tr><td>A2</td><td>420 x 594</td><td>B2</td><td>500 x 707</td><td>C2</td><td>458 x 648</td></tr>
-					    <tr><td>A3</td><td>297 x 420</td><td>B3</td><td>353 x 500</td><td>C3</td><td>324 x 458</td></tr>
-					    <tr><td style={{borderBottom:'2px solid #000'}}><strong>A4</strong></td><td style={{borderBottom:'2px solid #000'}}><strong>210 x 297</strong></td><td>B4</td><td>250 x 353</td><td>C4</td><td>229 x 324</td></tr>
-					    <tr><td>A5</td><td>148 x 210</td><td>B5</td><td>176 x 250</td><td>C5</td><td>162 x 229</td></tr>
-					    <tr><td>A6</td><td>105 x 148</td><td>B6</td><td>125 x 176</td><td>C6</td><td>114 x 162</td></tr>
-					    <tr><td>A7</td><td>74 x 105</td><td>B7</td><td>88 x 125</td><td>C7</td><td>81 x 114</td></tr>
-					    <tr><td>A8</td><td>52 x 74</td><td>B8</td><td>62 x 88</td><td>C8</td><td>57 x 81</td></tr>
-					    <tr><td>A9</td><td>37 x 52</td><td>B9</td><td>44 x 62</td><td>C9</td><td>40 × 57</td></tr>
-					    <tr><td>A10</td><td>26 x 37</td><td>B10</td><td>31 x 44</td><td>C10</td><td>28 × 40</td></tr>
+					    <tr><td><Link to="/baike/a0z" title="A0纸尺寸">A0</Link></td><td>841 x 1189</td><td><Link to="/baike/b0z" title="B0纸尺寸">B0</Link></td><td>1000 x 1414</td><td><Link to="/baike/c0z" title="C0纸尺寸">C0</Link></td><td>917 x 1297</td></tr>
+					    <tr><td><Link to="/baike/a1z" title="A1纸尺寸">A1</Link></td><td>594 x 841</td><td><Link to="/baike/b1z" title="B1纸尺寸">B1</Link></td><td>707 x 1000</td><td><Link to="/baike/c1z" title="C1纸尺寸">C1</Link></td><td>648 x 917</td></tr>
+					    <tr><td><Link to="/baike/a2z" title="A2纸尺寸">A2</Link></td><td>420 x 594</td><td><Link to="/baike/b2z" title="B2纸尺寸">B2</Link></td><td>500 x 707</td><td><Link to="/baike/c2z" title="C2纸尺寸">C2</Link></td><td>458 x 648</td></tr>
+					    <tr><td><Link to="/baike/a3z" title="A3纸尺寸">A3</Link></td><td>297 x 420</td><td><Link to="/baike/b3z" title="B3纸尺寸">B3</Link></td><td>353 x 500</td><td><Link to="/baike/c3z" title="C3纸尺寸">C3</Link></td><td>324 x 458</td></tr>
+					    <tr><td style={{borderBottom:'2px solid #000'}}><strong>A4</strong></td><td style={{borderBottom:'2px solid #000'}}><strong>210 x 297</strong></td><td><Link to="/baike/b4z" title="B4纸尺寸">B4</Link></td><td>250 x 353</td><td><Link to="/baike/c4z" title="C4纸尺寸">C4</Link></td><td>229 x 324</td></tr>
+					    <tr><td><Link to="/baike/a5z" title="A5纸尺寸">A5</Link></td><td>148 x 210</td><td><Link to="/baike/b5z" title="B5纸尺寸">B5</Link></td><td>176 x 250</td><td><Link to="/baike/c5z" title="C5纸尺寸">C5</Link></td><td>162 x 229</td></tr>
+					    <tr><td><Link to="/baike/a6z" title="A6纸尺寸">A6</Link></td><td>105 x 148</td><td><Link to="/baike/b6z" title="B6纸尺寸">B6</Link></td><td>125 x 176</td><td><Link to="/baike/c6z" title="C6纸尺寸">C6</Link></td><td>114 x 162</td></tr>
+					    <tr><td><Link to="/baike/a7z" title="A7纸尺寸">A7</Link></td><td>74 x 105</td><td><Link to="/baike/b7z" title="B7纸尺寸">B7</Link></td><td>88 x 125</td><td><Link to="/baike/c7z" title="C7纸尺寸">C7</Link></td><td>81 x 114</td></tr>
+					    <tr><td><Link to="/baike/a8z" title="A8纸尺寸">A8</Link></td><td>52 x 74</td><td><Link to="/baike/b8z" title="B8纸尺寸">B8</Link></td><td>62 x 88</td><td><Link to="/baike/c8z" title="C8纸尺寸">C8</Link></td><td>57 x 81</td></tr>
+					    <tr><td><Link to="/baike/a9z" title="A9纸尺寸">A9</Link></td><td>37 x 52</td><td><Link to="/baike/b9z" title="B9纸尺寸">B9</Link></td><td>44 x 62</td><td><Link to="/baike/c9z" title="C9纸尺寸">C9</Link></td><td>40 × 57</td></tr>
+					    <tr><td><Link to="/baike/a10z" title="A10纸尺寸">A10</Link></td><td>26 x 37</td><td><Link to="/baike/b10z" title="B10纸尺寸">B10</Link></td><td>31 x 44</td><td><Link to="/baike/c10z" title="C10纸尺寸">C10</Link></td><td>28 × 40</td></tr>
 			    	</tbody>
 			    </table>
 			</dd>
@@ -81,18 +86,31 @@ const Paragraphs = () => (
 			</dd>	
 			<dt id="a4z-brand">⑤ A4纸哪个品牌好</dt>
 			<dd>
-				<p style={{ marginTop: 15, paddingLeft: 20}}><strong>佳印-UPM欣乐</strong> (芬欧汇川旗下，芬欧汇川(常熟)纸业有限公司 十佳复印纸/打印纸品牌) </p>	
-				<p style={{ marginTop: 15, paddingLeft: 20}}><strong>旗舰-小钢炮-金旗舰</strong> (新加坡APP金光集团旗下，亚龙昆山纸业,十佳复印纸品牌)</p>
-				<p style={{ marginTop: 15, paddingLeft: 20}}><strong>Double A</strong> (泰国曼谷亿王亚哥集团，东南亚著名造纸品牌)</p>		
-				<p style={{ marginTop: 15, paddingLeft: 20}}><strong>幸运鸟</strong> (新加坡APP金光集团旗下，金华盛纸业（苏州工业园区）有限公司，十佳复印纸/打印纸品牌)</p>		
-				<p style={{ marginTop: 15, paddingLeft: 20}}><strong>金太阳-威尔</strong> (山东太阳纸业股份有限公司/兖州枫叶纸业，十佳复印纸品牌)</p>		
-				<p style={{ marginTop: 15, paddingLeft: 20}}><strong>百旺-高品乐</strong> (新加坡金鹰国际集团广东亚太纸业，十佳复印纸品牌)</p>		
-				<p style={{ marginTop: 15, paddingLeft: 20}}><strong>王子</strong> (日本王子制纸集团，十佳复印纸/打印纸品牌)</p>		
-				<p style={{ marginTop: 15, paddingLeft: 20}}><strong>永丰</strong> (中国驰名商标，四川永丰纸业股份有限公司，十佳复印纸品牌)</p>		
-				<p style={{ marginTop: 15, paddingLeft: 20}}><strong>安妮</strong> (厦门安妮股份有限公司 股票代码：002235，下称“安妮股份”)</p>		
-				<p style={{ marginTop: 15, paddingLeft: 20}}><strong>金丝雀</strong> (新加坡APP金光集团旗下，金鑫(清远)纸业有限公司）</p>				
+				<p style={{ marginTop: 15, paddingLeft: 20}}><strong><a href="https://s.click.taobao.com/U41HoUw" rel="nofollow" target="_blank">佳印</a>-UPM<a href="https://s.click.taobao.com/L75HoUw" rel="nofollow" target="_blank">欣乐</a></strong> (芬欧汇川旗下，芬欧汇川(常熟)纸业有限公司 十佳复印纸/打印纸品牌) </p>	
+				<p style={{ marginTop: 15, paddingLeft: 20}}><strong>旗舰-<a href="https://s.click.taobao.com/A52HoUw" rel="nofollow" target="_blank">小钢炮</a>-<a href="https://s.click.taobao.com/Dh9HoUw" rel="nofollow" target="_blank">金旗舰</a></strong> (新加坡APP金光集团旗下，亚龙昆山纸业,十佳复印纸品牌)</p>
+				<p style={{ marginTop: 15, paddingLeft: 20}}><strong><a href="https://s.click.taobao.com/NDAHoUw" rel="nofollow" target="_blank">Double A</a></strong> (泰国曼谷亿王亚哥集团，东南亚著名造纸品牌)</p>		
+				<p style={{ marginTop: 15, paddingLeft: 20}}><strong><a href="https://s.click.taobao.com/Uh8HoUw" rel="nofollow" target="_blank">幸运鸟</a></strong> (新加坡APP金光集团旗下，金华盛纸业（苏州工业园区）有限公司，十佳复印纸/打印纸品牌)</p>		
+				<p style={{ marginTop: 15, paddingLeft: 20}}><strong><a href="https://s.click.taobao.com/aO7HoUw" rel="nofollow" target="_blank">金太阳</a>-<a href="https://s.click.taobao.com/Qn3CoUw" rel="nofollow" target="_blank">威尔</a></strong> (山东太阳纸业股份有限公司/兖州枫叶纸业，十佳复印纸品牌)</p>		
+				<p style={{ marginTop: 15, paddingLeft: 20}}><strong><a href="https://s.click.taobao.com/Dd5HoUw" rel="nofollow" target="_blank">百旺</a>-<a href="https://s.click.taobao.com/YO7HoUw" rel="nofollow" target="_blank">高品乐</a></strong> (新加坡金鹰国际集团广东亚太纸业，十佳复印纸品牌)</p>		
+				<p style={{ marginTop: 15, paddingLeft: 20}}><strong><a href="https://s.click.taobao.com/Wx9HoUw" rel="nofollow" target="_blank">史泰博(Staples)</a></strong> (世界500强美国企业)</p>
+				<p style={{ marginTop: 15, paddingLeft: 20}}><strong><a href="https://s.click.taobao.com/Bv7HoUw" rel="nofollow" target="_blank">Deli/得力</a></strong> (中国驰名商标、中国文具百环奖、办公文具行业领导品牌)</p>	
+				<p style={{ marginTop: 15, paddingLeft: 20}}><strong><a href="https://s.click.taobao.com/Y41HoUw" rel="nofollow" target="_blank">Comix/齐心</a></strong> (中国最大的办公用品集团之一)</p>	
+				<p style={{ marginTop: 15, paddingLeft: 20}}><strong><a href="https://s.click.taobao.com/Bp0HoUw" rel="nofollow" target="_blank">M＆G/晨光</a></strong> (中国文具十大品牌)</p>	
+				<p style={{ marginTop: 15, paddingLeft: 20}}><strong><a href="https://s.click.taobao.com/lhrBoUw" rel="nofollow" target="_blank">天章(TANGO)</a></strong> (天章“TANGO”、“世纪天章”、“天章龙”品牌复印纸获得了国家环境保护部授权的“中国环境标志产品认证 证书”)</p>		
+				<p style={{ marginTop: 15, paddingLeft: 20}}><strong><a href="https://s.click.taobao.com/XDAHoUw" rel="nofollow" target="_blank">永丰</a></strong> (中国驰名商标，四川永丰纸业股份有限公司，十佳复印纸品牌)</p>		
+				<p style={{ marginTop: 15, paddingLeft: 20}}><strong><a href="https://s.click.taobao.com/NO6HoUw" rel="nofollow" target="_blank">安妮</a></strong> (厦门安妮股份有限公司 股票代码：002235，下称“安妮股份”)</p>		
+				<p style={{ marginTop: 15, paddingLeft: 20}}><strong><a href="https://s.click.taobao.com/Oh8HoUw" rel="nofollow" target="_blank">金丝雀</a></strong> (新加坡APP金光集团旗下，金鑫(清远)纸业有限公司）</p>
+				<p style={{ marginTop: 15, paddingLeft: 20}}><strong><a href="https://s.click.taobao.com/qTAHoUw" rel="nofollow" target="_blank">王子</a></strong> (日本王子制纸集团，十佳复印纸/打印纸品牌)</p>		
 			</dd>	
 		</dl>
+	</div>
+)
+const FriendLinks = () => (
+	<div className="friendlinks">
+		<dt>友情链接</dt>
+		<dd>
+			<a href="http://www.iampua.com/" target="_blank">泡妞秘籍</a> | <Link to="/message"> +申请友情链接</Link>
+		</dd>
 	</div>
 )
 class IndexPage extends Component {
@@ -122,17 +140,18 @@ class IndexPage extends Component {
 	}
 	render() {
 	    return (
-		  <div style={{paddingBottom: 50}}>
+		  <div style={{paddingBottom: 10}}>
 		    <Helmet
-		      title="A4纸尺寸大小是多少？A4纸品牌有哪些？A4纸价格多少？ - A4纸网"
+		      title="A4纸尺寸是多少？A4纸大小是多少？A4纸价格是多少？ - A4纸网"
 		      meta={[
 		        { name: 'description', content: 'A4纸网' },
-		        { name: 'keywords', content: 'A4纸尺寸,A4纸大小,A4纸, A4纸网, A4纸品牌, A4纸价格, A4纸厂家, A4纸供应商' },
+		        { name: 'keywords', content: 'A4纸尺寸, A4纸大小, A4纸, A4纸价格' },
 		      ]}
 		    />
 		  	<InGeneral />
 		  	<IndexNav fixed={this.state.fixed}/>
 		  	<Paragraphs />
+		  	<FriendLinks />
 		  </div>
 	    )
 	}
