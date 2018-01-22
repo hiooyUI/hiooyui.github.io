@@ -17,7 +17,23 @@ const SecondPage = () => (
 	    <span className="breadcrumb-link">A4纸知多少</span>
     </div>
     <h1>A4纸知多少</h1>
+    <div style={{ marginTop: 25}}>
+	    <strong>A4纸趣闻</strong>
+		<ul className="news-list orange clearfix">
+			<li><Link to="/fun/a4-skinny-waist-challenge" title="A4腰，什么是A4腰，A4腰挑战">A4腰，A4纸腰，什么是A4腰，A4腰挑战</Link></li>
+			<li><Link to="/fun/3d-paper-snowflake" title="如何用A4纸制作3D纸雪花">如何用A4纸制作3D纸雪花</Link></li>
+		</ul>
+    </div>
+    <p style={{ marginTop: 25}}>
+	    <strong>A4纸张尺寸大小</strong>
 
+<br />   
+
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;许多纸张尺寸标准的惯例已经存在于不同的时间和不同的国家。 今天，包括常用的A4尺寸大小的ISO216的A和B系列是几乎所有国家都使用的国际标准。 然而，在美洲和菲律宾的许多国家，“信封”等北美系列纸张尺寸更为普遍。
+
+		纸张尺寸会影响书写纸张，文具，卡片和一些打印文档。 信封的国际标准是ISO 269的C系列。
+
+    </p>
 		<table style={{ marginTop: 15, marginBottom: 30, fontSize: 15}}>
 		<caption>ISO纸张尺寸（毫米与英寸两种单位）</caption>
 		<tbody><tr>
@@ -136,15 +152,7 @@ const SecondPage = () => (
 		</tr>
 		</tbody></table>
 
-    <p style={{ marginTop: 25}}>
-	    <strong>A4纸张尺寸大小</strong><br />   
 
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;许多纸张尺寸标准的惯例已经存在于不同的时间和不同的国家。 今天，包括常用的A4尺寸大小的ISO216的A和B系列是几乎所有国家都使用的国际标准。 然而，在美洲和菲律宾的许多国家，“信封”等北美系列纸张尺寸更为普遍。
-
-		纸张尺寸会影响书写纸张，文具，卡片和一些打印文档。 信封的国际标准是ISO 269的C系列。
-
-
-    </p>
     <p style={{ marginTop: 25}}>
 	    <strong>ISO 216</strong><br />   
 
@@ -157,8 +165,6 @@ const SecondPage = () => (
 
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1786年，德国科学家克里斯托弗·利希滕伯格（Georg Christoph Lichtenberg）在致约翰·贝克曼（Johann Beckmann）的一封信中描述了将纸张尺寸设置为纵横比2的平方根的优点。成为ISO纸张尺寸A2，A3，B3，B4和B5的格式是在法国开发的。他们被列入1798年关于出版物征税的法律，这部分是基于页面大小。
 
-		<br />  
-		<br />  		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A4（灰色阴影）和C4尺寸与一些相似纸张和相纸尺寸的比较。
 		<br /><br />  		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这个系统的主要优点是它的缩放。长宽比为2的平方根的长方形纸张具有独特的属性，在其短边中间切割或折叠一半时，每一半都具有相同的2的平方根纵横比和整个表格的一半面积。等价地，如果将长宽比为2的平方根的两张相同大小的纸张沿着它们的长边并排放置，则会形成一个更大的矩形， 2的平方根的纵横比和每个单独表单面积的两倍。
 
 		<br /><br />  		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;纸张尺寸的ISO系统利用2的平方根长宽比的这些属性。在每个尺寸系列（例如，系列A）中，最大尺寸编号为0（例如A0），并且每个连续尺寸（例如，A1，A2等）具有前一页面积的一半，并且可以通过减小前面尺寸纸张的长度来切割。新的测量值向下舍入到最近的毫米。可以使用下一张较大尺寸的纸张来制作折叠的小册子（例如，将一张A4纸折叠成一张尺寸为A5页的小册子，可以设计一个办公室复印机或打印机，以将页面从A4减少到A5或将页面从A4放大到A3;同样，可以缩小两张A4纸张以适合一张A4纸张，而没有多余的空白纸张。

@@ -2,7 +2,7 @@
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>http://www.a4z.cn</loc>
-        <lastmod>2018-01-18</lastmod>
+        <lastmod>2018-01-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
      </url>
@@ -14,13 +14,13 @@
     </url>
      <url>
         <loc>http://www.a4z.cn/fun</loc>
-        <lastmod>2018-01-16</lastmod>
+        <lastmod>2018-01-22</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
      <url>
         <loc>http://www.a4z.cn/price</loc>
-        <lastmod>2018-01-18</lastmod>
+        <lastmod>2018-01-22</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
@@ -459,6 +459,18 @@
      <url>
         <loc>http://www.a4z.cn/baike/wood-free-printed-paper</loc>
         <lastmod>2018-01-16</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+     <url>
+        <loc>http://www.a4z.cn/baike/a4-skinny-waist-challenge</loc>
+        <lastmod>2018-01-22</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+     <url>
+        <loc>http://www.a4z.cn/baike/3d-paper-snowflake</loc>
+        <lastmod>2018-01-22</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>

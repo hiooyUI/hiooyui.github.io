@@ -7,6 +7,13 @@ export default function Template({
 }) {
   const { markdownRemark } = data; // data.markdownRemark holds our post data
   const { frontmatter, html } = markdownRemark;
+  const breadcrumbs = {
+    baike: '纸张百科',
+    fun: 'A4纸知多少',
+    price: 'A4纸价格',
+    bbs: 'A4纸畅言吧',
+  }
+  const breadcrumbKey = Object.keys(breadcrumbs).find(k => frontmatter.path.indexOf(k) > 0);
   return (
     <div className="cms-post-container">
       <Helmet
@@ -16,7 +23,7 @@ export default function Template({
         <div className="breadcrumb">
           <span className="breadcrumb-link"><Link to="/">首页</Link></span>          
           <span className="breadcrumb-separator">/</span>
-          <span className="breadcrumb-link"><Link to="/baike">纸张百科
+          <span className="breadcrumb-link"><Link to={'/' + breadcrumbKey}>{breadcrumbs[breadcrumbKey]}
 </Link></span>
           <span className="breadcrumb-separator">/</span>
           <span className="breadcrumb-link">{frontmatter.title}</span>
