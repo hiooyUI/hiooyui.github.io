@@ -474,4 +474,9 @@
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
-  </urlset>
+     <url>
+        <loc>http://www.a4z.cn/baike/why-paper-cuts-hurt-so-much</loc>
+        <lastmod>2018-01-22</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>  </urlset>

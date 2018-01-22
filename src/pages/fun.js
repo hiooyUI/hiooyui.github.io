@@ -22,6 +22,7 @@ const SecondPage = () => (
 		<ul className="news-list orange clearfix">
 			<li><Link to="/fun/a4-skinny-waist-challenge" title="A4腰，什么是A4腰，A4腰挑战">A4腰，A4纸腰，什么是A4腰，A4腰挑战</Link></li>
 			<li><Link to="/fun/3d-paper-snowflake" title="如何用A4纸制作3D纸雪花">如何用A4纸制作3D纸雪花</Link></li>
+			<li><Link to="/fun/why-paper-cuts-hurt-so-much" title="A4纸的纸边伤到手，不会破坏皮肤，但可能会非常痛苦。 为什么？">A4纸的纸边伤到手，不会破坏皮肤，但可能会非常痛苦。 为什么？</Link></li>
 		</ul>
     </div>
     <p style={{ marginTop: 25}}>
