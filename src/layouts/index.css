@@ -755,6 +755,10 @@ html, body , body > div {
   text-decoration: underline;
 }
 
+.friendlinks .outer-links a {
+  color: #ccc;
+}
+
 .news-list{
   display: block;
   padding: 20px 0;

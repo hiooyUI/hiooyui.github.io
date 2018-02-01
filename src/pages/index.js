@@ -108,8 +108,12 @@ const Paragraphs = () => (
 const FriendLinks = () => (
 	<div className="friendlinks">
 		<dt>友情链接</dt>
-		<dd>
-			<a href="http://www.iampua.com/" target="_blank">泡妞秘籍</a> | <Link to="/message"> +申请友情链接</Link>
+		<dd style={{marginBottom:15}}>
+			<a href="http://www.iampua.com/" target="_blank">泡妞秘籍</a> | <a href="http://xinyang.17house.com/" target="_blank">信阳装修网</a> | <a href="http://guangzhou.jiazhuang.com/" target="_blank">广州装修网</a> | <Link to="/message"> +申请友情链接</Link>
+		</dd>
+		<dt>外部网盟</dt>
+		<dd className="outer-links">
+			<Link to="/message"> +申请添加链接</Link>
 		</dd>
 	</div>
 )

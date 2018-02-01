@@ -1,7 +1,7 @@
 ---
 path: "/fun/a4-skinny-waist-challenge"
 date: "2018-01-22"
-title: "A4腰，什么是A4腰，A4腰挑战"
+title: "A4腰，什么是A4腰，A4挑战"
 ---
 
 ![A4腰，什么是A4腰，A4腰挑战 图一　](http://p29kbvdka.bkt.clouddn.com/upload2/TIM20180122103111.jpg)   
