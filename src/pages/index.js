@@ -146,7 +146,7 @@ class IndexPage extends Component {
 	    return (
 		  <div style={{paddingBottom: 10}}>
 		    <Helmet
-		      title="A4纸尺寸是多少？A4纸大小是多少？A4纸价格是多少？ - A4纸网"
+		      title="A4纸尺寸大小是多少？A4纸价格是多少？ - A4纸网"
 		      meta={[
 		        { name: 'description', content: 'A4纸网' },
 		        { name: 'keywords', content: 'A4纸尺寸, A4纸大小, A4纸, A4纸价格' },
