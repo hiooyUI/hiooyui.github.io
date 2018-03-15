@@ -16,11 +16,11 @@ const InGeneral = () => (
 	    <p style={{marginBottom:15, textIndent:'2em'}}>那么<strong style={{textShadow:'rgb(221, 221, 221) 2px 2px 0px'}}>A4纸是几寸? 8.91寸 × 6.3寸</strong>。寸也是常说的中国的市寸，10寸 = 1尺，10尺 = 1仗，3尺 = 1米，所以1寸=3.33333333333333厘米</p>
 	   </div>
 	   <div className="fr" style={{width:'28%'}}><img src={'/img/a4p.jpg'} alt="A4纸尺寸：21厘米 × 29.7厘米（210毫米 × 297毫米）" title="A4纸尺寸：21厘米 × 29.7厘米（210毫米 × 297毫米）"/>	</div>
-    </div>	
+    </div>
 )
 
 const IndexNav = ({fixed}) => (
-	<ul 
+	<ul
 		className={'index-nav-list clearfix ' + fixed}
 		style={{
 			display: 'block',
@@ -67,12 +67,12 @@ const Paragraphs = () => (
 					</p>
 				<p style={{ marginTop: 15, paddingLeft: 20, textIndent:'2em'}}>纸张尺寸的这个系统的价值是每个尺寸与下一个尺寸成比例。 A4纸例如大约21厘米×29.7厘米（大约8.27英寸×11.75英寸），而A3是29.7厘米×42厘米（大约11.75英寸×16.5英寸）。 如果有人在一张A4纸上放置了文字或图像，并想把它放大到A3纸上，可以很容易地完成，而不会丢失文档的任何内容。 这个使用2的平方根（即1.414）的比例被称为Lichtenberg比率，以德国物理学家的名字命名，他首先指出了它的用处。
 					</p>
-				<img src={'/img/a4z.jpg'} alt="A4纸尺寸：21厘米 × 29.7厘米（210毫米 × 297毫米）" title="A4纸尺寸：21厘米 × 29.7厘米（210毫米 × 297毫米）"/>			
+				<img src={'/img/a4z.jpg'} alt="A4纸尺寸：21厘米 × 29.7厘米（210毫米 × 297毫米）" title="A4纸尺寸：21厘米 × 29.7厘米（210毫米 × 297毫米）"/>
 			</dd>
 			<dt id="a4z-weight">③A4纸张重量</dt>
 			<dd>
-				<p style={{ marginTop: 15, paddingLeft: 20, textIndent:'2em'}}>根据纸张的厚度来分，比如<strong>60克、70克、75克、85克、120克</strong>等等，是指在单位面积纸的重量有多重，因为纸的密度基本上是一样的，在单位面积纸的厚度就越厚，纸的重量越重。办公用70克左右，80克的稍厚一些，手感更好，但贵一点，非专业打印用的话，没多大必要，市面上的复印店则为了省钱，经常会使用一些60克甚至更薄的纸。</p>	
-				<p style={{ marginTop: 15, paddingLeft: 20, textIndent:'2em'}}>欧洲纸张的重量基于公制系统，并在ISO标准536（最初于1976年开发并于1995年更新）标准化。欧洲和其他非美国纸张的加权基于<strong>每平方米的克数（g / m<sup>2</sup> ）</strong>为每种类型的纸张。 A4纸可用于大多数标准纸张重量; <strong>A4打印纸的重量为90克/平方米</strong>，而封面纸为250克/平方米。</p>			
+				<p style={{ marginTop: 15, paddingLeft: 20, textIndent:'2em'}}>根据纸张的厚度来分，比如<strong>60克、70克、75克、85克、120克</strong>等等，是指在单位面积纸的重量有多重，因为纸的密度基本上是一样的，在单位面积纸的厚度就越厚，纸的重量越重。办公用70克左右，80克的稍厚一些，手感更好，但贵一点，非专业打印用的话，没多大必要，市面上的复印店则为了省钱，经常会使用一些60克甚至更薄的纸。</p>
+				<p style={{ marginTop: 15, paddingLeft: 20, textIndent:'2em'}}>欧洲纸张的重量基于公制系统，并在ISO标准536（最初于1976年开发并于1995年更新）标准化。欧洲和其他非美国纸张的加权基于<strong>每平方米的克数（g / m<sup>2</sup> ）</strong>为每种类型的纸张。 A4纸可用于大多数标准纸张重量; <strong>A4打印纸的重量为90克/平方米</strong>，而封面纸为250克/平方米。</p>
 			</dd>
 			<dt id="a4z-pixel">④ A4纸像素分辨率换算</dt>
 			<dd>
@@ -81,27 +81,27 @@ const Paragraphs = () => (
 					<strong>分辨率为 150</strong> 像素/英寸：用于报纸印刷。此时，像素 <strong>宽 × 高</strong>  = （150 × 21 / 2.54） × （150 × 29.7 / 2.54）<strong> ≈ 1240 像素 × 1754 像素</strong><br /><br />
 					<strong>分辨率为 200</strong> 像素/英寸：用于彩打等。此时，像素 <strong>宽 × 高</strong>  = （200 × 21 / 2.54） × （200 × 29.7 / 2.54）<strong> ≈ 1654 像素 × 2339 像素</strong><br /><br />
 					<strong>分辨率为 300</strong> 像素/英寸：用于印刷，出版，杂志画报印刷等。此时，像素 <strong>宽 × 高</strong>  = （300 × 21 / 2.54） × （300 × 29.7 / 2.54）<strong> ≈ 2479 像素 × 3508 像素</strong>
-				</p>		
+				</p>
 				<p style={{ marginTop: 15, paddingLeft: 20}}>注意：<br/>分辨率（像素/英寸）：意思是每英寸像素的个数（1英寸=2.54厘米）。<br/>像素宽 = 宽（英寸） × 分辨率<br/>像素高 = 高（英寸） × 分辨率</p>
-			</dd>	
+			</dd>
 			<dt id="a4z-brand">⑤ A4纸哪个品牌好</dt>
 			<dd>
-				<p style={{ marginTop: 15, paddingLeft: 20}}><strong><a href="https://s.click.taobao.com/U41HoUw" rel="nofollow" target="_blank">佳印</a>-UPM<a href="https://s.click.taobao.com/L75HoUw" rel="nofollow" target="_blank">欣乐</a></strong> (芬欧汇川旗下，芬欧汇川(常熟)纸业有限公司 十佳复印纸/打印纸品牌) </p>	
+				<p style={{ marginTop: 15, paddingLeft: 20}}><strong><a href="https://s.click.taobao.com/U41HoUw" rel="nofollow" target="_blank">佳印</a>-UPM<a href="https://s.click.taobao.com/L75HoUw" rel="nofollow" target="_blank">欣乐</a></strong> (芬欧汇川旗下，芬欧汇川(常熟)纸业有限公司 十佳复印纸/打印纸品牌) </p>
 				<p style={{ marginTop: 15, paddingLeft: 20}}><strong>旗舰-<a href="https://s.click.taobao.com/A52HoUw" rel="nofollow" target="_blank">小钢炮</a>-<a href="https://s.click.taobao.com/Dh9HoUw" rel="nofollow" target="_blank">金旗舰</a></strong> (新加坡APP金光集团旗下，亚龙昆山纸业,十佳复印纸品牌)</p>
-				<p style={{ marginTop: 15, paddingLeft: 20}}><strong><a href="https://s.click.taobao.com/NDAHoUw" rel="nofollow" target="_blank">Double A</a></strong> (泰国曼谷亿王亚哥集团，东南亚著名造纸品牌)</p>		
-				<p style={{ marginTop: 15, paddingLeft: 20}}><strong><a href="https://s.click.taobao.com/Uh8HoUw" rel="nofollow" target="_blank">幸运鸟</a></strong> (新加坡APP金光集团旗下，金华盛纸业（苏州工业园区）有限公司，十佳复印纸/打印纸品牌)</p>		
-				<p style={{ marginTop: 15, paddingLeft: 20}}><strong><a href="https://s.click.taobao.com/aO7HoUw" rel="nofollow" target="_blank">金太阳</a>-<a href="https://s.click.taobao.com/Qn3CoUw" rel="nofollow" target="_blank">威尔</a></strong> (山东太阳纸业股份有限公司/兖州枫叶纸业，十佳复印纸品牌)</p>		
-				<p style={{ marginTop: 15, paddingLeft: 20}}><strong><a href="https://s.click.taobao.com/Dd5HoUw" rel="nofollow" target="_blank">百旺</a>-<a href="https://s.click.taobao.com/YO7HoUw" rel="nofollow" target="_blank">高品乐</a></strong> (新加坡金鹰国际集团广东亚太纸业，十佳复印纸品牌)</p>		
+				<p style={{ marginTop: 15, paddingLeft: 20}}><strong><a href="https://s.click.taobao.com/NDAHoUw" rel="nofollow" target="_blank">Double A</a></strong> (泰国曼谷亿王亚哥集团，东南亚著名造纸品牌)</p>
+				<p style={{ marginTop: 15, paddingLeft: 20}}><strong><a href="https://s.click.taobao.com/Uh8HoUw" rel="nofollow" target="_blank">幸运鸟</a></strong> (新加坡APP金光集团旗下，金华盛纸业（苏州工业园区）有限公司，十佳复印纸/打印纸品牌)</p>
+				<p style={{ marginTop: 15, paddingLeft: 20}}><strong><a href="https://s.click.taobao.com/aO7HoUw" rel="nofollow" target="_blank">金太阳</a>-<a href="https://s.click.taobao.com/Qn3CoUw" rel="nofollow" target="_blank">威尔</a></strong> (山东太阳纸业股份有限公司/兖州枫叶纸业，十佳复印纸品牌)</p>
+				<p style={{ marginTop: 15, paddingLeft: 20}}><strong><a href="https://s.click.taobao.com/Dd5HoUw" rel="nofollow" target="_blank">百旺</a>-<a href="https://s.click.taobao.com/YO7HoUw" rel="nofollow" target="_blank">高品乐</a></strong> (新加坡金鹰国际集团广东亚太纸业，十佳复印纸品牌)</p>
 				<p style={{ marginTop: 15, paddingLeft: 20}}><strong><a href="https://s.click.taobao.com/Wx9HoUw" rel="nofollow" target="_blank">史泰博(Staples)</a></strong> (世界500强美国企业)</p>
-				<p style={{ marginTop: 15, paddingLeft: 20}}><strong><a href="https://s.click.taobao.com/Bv7HoUw" rel="nofollow" target="_blank">Deli/得力</a></strong> (中国驰名商标、中国文具百环奖、办公文具行业领导品牌)</p>	
-				<p style={{ marginTop: 15, paddingLeft: 20}}><strong><a href="https://s.click.taobao.com/Y41HoUw" rel="nofollow" target="_blank">Comix/齐心</a></strong> (中国最大的办公用品集团之一)</p>	
-				<p style={{ marginTop: 15, paddingLeft: 20}}><strong><a href="https://s.click.taobao.com/Bp0HoUw" rel="nofollow" target="_blank">M＆G/晨光</a></strong> (中国文具十大品牌)</p>	
-				<p style={{ marginTop: 15, paddingLeft: 20}}><strong><a href="https://s.click.taobao.com/lhrBoUw" rel="nofollow" target="_blank">天章(TANGO)</a></strong> (天章“TANGO”、“世纪天章”、“天章龙”品牌复印纸获得了国家环境保护部授权的“中国环境标志产品认证 证书”)</p>		
-				<p style={{ marginTop: 15, paddingLeft: 20}}><strong><a href="https://s.click.taobao.com/XDAHoUw" rel="nofollow" target="_blank">永丰</a></strong> (中国驰名商标，四川永丰纸业股份有限公司，十佳复印纸品牌)</p>		
-				<p style={{ marginTop: 15, paddingLeft: 20}}><strong><a href="https://s.click.taobao.com/NO6HoUw" rel="nofollow" target="_blank">安妮</a></strong> (厦门安妮股份有限公司 股票代码：002235，下称“安妮股份”)</p>		
+				<p style={{ marginTop: 15, paddingLeft: 20}}><strong><a href="https://s.click.taobao.com/Bv7HoUw" rel="nofollow" target="_blank">Deli/得力</a></strong> (中国驰名商标、中国文具百环奖、办公文具行业领导品牌)</p>
+				<p style={{ marginTop: 15, paddingLeft: 20}}><strong><a href="https://s.click.taobao.com/Y41HoUw" rel="nofollow" target="_blank">Comix/齐心</a></strong> (中国最大的办公用品集团之一)</p>
+				<p style={{ marginTop: 15, paddingLeft: 20}}><strong><a href="https://s.click.taobao.com/Bp0HoUw" rel="nofollow" target="_blank">M＆G/晨光</a></strong> (中国文具十大品牌)</p>
+				<p style={{ marginTop: 15, paddingLeft: 20}}><strong><a href="https://s.click.taobao.com/lhrBoUw" rel="nofollow" target="_blank">天章(TANGO)</a></strong> (天章“TANGO”、“世纪天章”、“天章龙”品牌复印纸获得了国家环境保护部授权的“中国环境标志产品认证 证书”)</p>
+				<p style={{ marginTop: 15, paddingLeft: 20}}><strong><a href="https://s.click.taobao.com/XDAHoUw" rel="nofollow" target="_blank">永丰</a></strong> (中国驰名商标，四川永丰纸业股份有限公司，十佳复印纸品牌)</p>
+				<p style={{ marginTop: 15, paddingLeft: 20}}><strong><a href="https://s.click.taobao.com/NO6HoUw" rel="nofollow" target="_blank">安妮</a></strong> (厦门安妮股份有限公司 股票代码：002235，下称“安妮股份”)</p>
 				<p style={{ marginTop: 15, paddingLeft: 20}}><strong><a href="https://s.click.taobao.com/Oh8HoUw" rel="nofollow" target="_blank">金丝雀</a></strong> (新加坡APP金光集团旗下，金鑫(清远)纸业有限公司）</p>
-				<p style={{ marginTop: 15, paddingLeft: 20}}><strong><a href="https://s.click.taobao.com/qTAHoUw" rel="nofollow" target="_blank">王子</a></strong> (日本王子制纸集团，十佳复印纸/打印纸品牌)</p>		
-			</dd>	
+				<p style={{ marginTop: 15, paddingLeft: 20}}><strong><a href="https://s.click.taobao.com/qTAHoUw" rel="nofollow" target="_blank">王子</a></strong> (日本王子制纸集团，十佳复印纸/打印纸品牌)</p>
+			</dd>
 		</dl>
 	</div>
 )
@@ -113,7 +113,7 @@ const FriendLinks = () => (
 		</dd>
 		<dt>外部网盟</dt>
 		<dd className="outer-links">
-			<Link to="/message"> +申请添加链接</Link>
+    		<a href="http://www.zyvps.com/" target="_blank">香港服务器租用</a> | <Link to="/message"> +申请添加链接</Link>
 		</dd>
 	</div>
 )
@@ -139,7 +139,7 @@ class IndexPage extends Component {
 		} else {
 			this.setState({
 				fixed: '',
-			})			
+			})
 		}
 	}
 	render() {
