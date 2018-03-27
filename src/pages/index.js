@@ -113,7 +113,11 @@ const FriendLinks = () => (
 		</dd>
 		<dt>外部网盟</dt>
 		<dd className="outer-links">
+<<<<<<< HEAD
     		<a href="http://www.zyvps.com/" target="_blank">香港服务器租用</a> | <a href="http://www.haohead.com/case/logo" target="_blank">公司logo设计</a> | <Link to="/message"> +申请添加链接</Link>
+=======
+    		<a href="http://www.zyvps.com/" target="_blank">香港服务器租用</a> | <a href="http://www.haohead.com/case/logo" target="_blank">公司logo设计</a> | <a href="http://www.yihuansh.com" target="_blank">拉力试验机</a> | <a href="http://ym.glofang.com/de" target="_blank">德国投资移民</a> | <Link to="/message"> +申请添加链接</Link>
+>>>>>>> cf6455d81af6c883b13381b6f3c8cf9e6d2e9cd1
 		</dd>
 	</div>
 )
