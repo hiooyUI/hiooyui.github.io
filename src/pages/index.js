@@ -113,7 +113,7 @@ const FriendLinks = () => (
 		</dd>
 		<dt>外部网盟</dt>
 		<dd className="outer-links">
-    		<a href="http://www.zyvps.com/" target="_blank">香港服务器租用</a> | <Link to="/message"> +申请添加链接</Link>
+    		<a href="http://www.zyvps.com/" target="_blank">香港服务器租用</a> | <a href="http://www.haohead.com/case/logo" target="_blank">公司logo设计</a> | <Link to="/message"> +申请添加链接</Link>
 		</dd>
 	</div>
 )
@@ -148,7 +148,7 @@ class IndexPage extends Component {
 		    <Helmet
 		      title="A4纸尺寸大小是多少？A4纸价格是多少？ - A4纸网"
 		      meta={[
-		        { name: 'description', content: 'A4纸网' },
+		        { name: 'description', content: 'A4纸网是一个专注于A4纸的网站' },
 		        { name: 'keywords', content: 'A4纸尺寸, A4纸大小, A4纸, A4纸价格' },
 		      ]}
 		    />
