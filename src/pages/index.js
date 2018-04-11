@@ -650,6 +650,10 @@ const FriendLinks = () => (
       <a href="http://www.kangantu.com/a/zixunzhongxin/2017/0409/522.html" target="_blank">
       吉三代
       </a>{" "}
+      |{" "}
+      <a href="http://www.wnnyljxy.com" target="_blank">
+      五常香米
+      </a>{" "}
       | <Link to="/message"> +申请添加链接</Link>
     </dd>
   </div>
