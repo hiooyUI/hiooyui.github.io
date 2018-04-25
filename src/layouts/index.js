@@ -33,6 +33,11 @@ const HeaderNav = ({ location }) => {
             首页
           </Link>
         </li>
+        <li className={pathname.match(/\/news/i) ? "active" : null}>
+          <a href="/news/index.html" title="A4国际新闻">
+            A4国际新闻
+          </a>
+        </li>
         <li className={pathname.match(/\/fun/i) ? "active" : null}>
           <Link to="/fun" title={"A4纸知多少"}>
             A4纸知多少
@@ -135,6 +140,10 @@ const Footer = () => (
       <Link to="/" title="A4纸尺寸大小">
         A4纸网首页
       </Link>{" "}
+      -{" "}
+      <a href="/news" title="A4国际新闻">
+        A4国际新闻
+      </a>{" "}
       -{" "}
       <Link to="/fun" title="A4纸知多少">
         A4纸知多少
