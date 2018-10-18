@@ -27,7 +27,7 @@ const InGeneral = () => (
       </p>
       <p style={{ marginBottom: 15, textIndent: "2em" }}>
         那么<strong style={{ textShadow: "rgb(221, 221, 221) 2px 2px 0px" }}>
-          A4纸是几寸? 8.91寸 × 6.3寸
+          A4纸是几寸? 6.3寸 × 8.91寸
         </strong>。寸也是常说的中国的市寸，10寸 = 1尺，10尺 = 1仗，3尺 =
         1米，所以1寸=3.33333333333333厘米
       </p>
@@ -619,32 +619,12 @@ const FriendLinks = () => (
       <a href="http://xinyang.17house.com/" target="_blank">
         信阳装修网
       </a>{" "}
-      |{" "}
-      <a href="http://www.bjsuntrans.cn/" target="_blank">
-        阳光创译翻译公司
-      </a>{" "}
       | <Link to="/message"> +申请友情链接</Link>
     </dd>
     <dt>外部网盟</dt>
     <dd className="outer-links">
-      <a href="http://www.yihuansh.com" target="_blank">
-        拉力试验机
-      </a>{" "}
-      |{" "}
-      <a href="http://ym.glofang.com/de" target="_blank">
-        德国投资移民
-      </a>{" "}
-      |{" "}
-      <a href="http://www.599188.com/meiyu" target="_blank">
-        煤玉
-      </a>{" "}
-      |{" "}
-      <a href="http://www.kangantu.com/a/zixunzhongxin/2017/0409/522.html" target="_blank">
-      吉三代
-      </a>{" "}
-      |{" "}
-      <a href="http://www.wnnyljxy.com" target="_blank">
-      五常香米
+      <a href="http://www.extbrand.com/" target="_blank">
+      海招网
       </a>{" "}
       | <Link to="/message"> +申请添加链接</Link>
     </dd>
